@@ -1,17 +1,18 @@
 from paddleocr import PaddleOCR
-from segmentation import warped
+from segmentation import cropped_image
 
 def main():
     ocr = PaddleOCR(
-        lang="en",
+        lang="tr",               
+        ocr_version="PP-OCRv5",  
         use_doc_orientation_classify=False,
         use_doc_unwarping=False,
         use_textline_orientation=True,
     )
 
-    results = ocr.predict(warped)
+    results = ocr.predict(cropped_image)
     
-    print("\n--- DETECTED LINES ( WARPED COLOR ) ---")
+    print("\n--- DETECTED LINES ---")
     for page in results:
         data = page.json["res"]
         rec_texts = data["rec_texts"]
@@ -23,3 +24,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
