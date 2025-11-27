@@ -3,3 +3,5 @@ Pillow
 numpy
 torch
 transformers
+paddleocr
+paddlepaddle
