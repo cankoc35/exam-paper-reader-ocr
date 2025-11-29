@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 base_dir = Path(__file__).resolve().parent.parent
-img_path = str(base_dir / "data" / "example_exam_04.jpeg")
+img_path = str(base_dir / "data" / "example_exam_02.jpeg")
 
 img = cv2.imread(img_path)
 if img is None:
@@ -47,16 +47,15 @@ for c in sorted(contours, key=cv2.contourArea, reverse=True):
         best = approx
         break
 
+cropped_image = None
 if best is None:
     print("No page contour found")
-    croped_image = None
 else:
     x, y, w, h = cv2.boundingRect(best)
-    cropped_image = img[y:y+h, x:x+w]  # this is the BGR crop you pass to OCR
+    cropped_image = img[y:y + h, x:x + w]  # this is the BGR crop you pass to OCR
     dbg = img.copy()
     cv2.drawContours(dbg, [best], -1, (0, 255, 0), 3)
     cv2.namedWindow("page", cv2.WINDOW_NORMAL)
     cv2.imshow("page", dbg)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-
