@@ -6,3 +6,4 @@ transformers
 paddleocr
 paddlepaddle
 sentencepiece 
+pytesseract
