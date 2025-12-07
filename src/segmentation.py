@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 base_dir = Path(__file__).resolve().parent.parent
-img_path = str(base_dir / "data" / "example_exam_02.jpeg")
+img_path = str(base_dir / "data" / "example_exam_05.jpeg")
 
 img = cv2.imread(img_path)
 if img is None:
@@ -24,7 +24,7 @@ th = cv2.morphologyEx(th, cv2.MORPH_CLOSE, kernel, iterations=1)
 contours, _ = cv2.findContours(th, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
 h, w = img.shape[:2]
-min_area = 0.25 * h * w       # at least 25% of image
+min_area = 0.25 * h * w
 best = None
 
 for c in sorted(contours, key=cv2.contourArea, reverse=True):
@@ -35,17 +35,12 @@ for c in sorted(contours, key=cv2.contourArea, reverse=True):
     peri = cv2.arcLength(c, True)
     approx = cv2.approxPolyDP(c, 0.02 * peri, True)
 
-    # we want something roughly quadrilateral
-    if len(approx) < 4 or len(approx) > 6:
+    # keep “big-ish” polygons, no hard aspect ratio:
+    if len(approx) < 4:
         continue
 
-    x, y, ww, hh = cv2.boundingRect(approx)
-    aspect = ww / float(hh)
-
-    # notebook page is roughly tall rectangle, tweak as you like:
-    if 0.6 < aspect < 1.3:
-        best = approx
-        break
+    best = approx
+    break
 
 cropped_image = None
 if best is None:
