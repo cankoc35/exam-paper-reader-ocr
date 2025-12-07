@@ -1,116 +1,32 @@
-### 1- Fix the input: crop + deskew the page
-- tighten the crop a bit 
-- light cleanup before OCR
-- Switch to a multilingual / Latin model.
-### 2- Use a better language model (Latin / multilingual) instead of pure lang="en"
-### 3- Light image cleanup before OCR
-### 4- Later: language-level correction (spellcheck / LM)
+# Roadmap
 
-### NOTE: output of conf images 
+Structured plan to improve OCR quality on Turkish/Latin exam pages. Follow the phases in order; add optional experiments as time permits.
 
+## Phase 1: Input cleanup and detection
+- Crop and deskew pages; tighten margins to remove shadows and borders.
+- Light preprocessing before OCR: grayscale, gentle contrast normalization, mild denoise (avoid harsh binarization).
+- Stick with multilingual/Latin-friendly models; avoid English-only configs.
+- Re-run PaddleOCR detection after cleanup and verify bounding boxes visually.
 
+## Phase 2: Line-centric recognition
+- Use a handwriting-friendly recognizer (TrOCR, PARSeq) instead of default PP-OCRv4 mobile for cursive lines.
+- Process line-by-line: detect text lines (PaddleOCR detector or projection), crop, slightly upscale (e.g., 2x via `cv2.resize`), then recognize.
+- Keep PaddleOCR text output as a baseline; compare against TrOCR/EasyOCR on the same line crops.
 
-### Use a model that knows Turkish (Latin), not pure English
-### Do light grayscale + contrast normalization (not hard binary)
-### Add a simple language-aware clean-up step later
+## Phase 3: Language-aware post-processing
+- Add Turkish post-correction (spellchecker or lightweight language model) to fix obvious errors.
+- Keep a list of common OCR confusions (e.g., g/ğ, s/ş, i/ı) and normalize them.
+- Evaluate outputs on a small set of labeled lines; track CER/WER deltas after cleanup and correction.
 
+## Optional recognizers and experiments
+1) **Tesseract (tur, tur_best, tur_fast)**: good for printed Turkish; weak on handwriting. Use selectively on printed parts or numbers via `pytesseract.image_to_string(img, lang="tur")`.
+2) **DocTR (Mindee)**: solid for Latin printed text; limited handwriting support. Use as a baseline on whole-page crops or clean line crops.
+3) **MMOCR (OpenMMLab)**: many detectors/recognizers (DB, PSENet, CRAFT, CRNN, SAR). Heavy; best for research or fine-tuning on Turkish data.
+4) **Keras-OCR**: CRAFT detector + CRNN recognizer. Simple to try; expect weaker performance on messy handwriting unless retrained.
+5) **Handwriting-specific frameworks**: Kraken, Calamari, PyLaia for custom training if you collect 100–200+ labeled Turkish lines.
+6) **Cloud/commercial**: Google Vision/Document AI, Azure Vision Read, ABBYY. Strong handwriting support; use via API if allowed.
 
-
-Use a handwriting-focused OCR model instead of Paddle’s default
-
-Try a transformer model like TrOCR or PARSeq for handwriting.
-
-These models are simply better at cursive strokes than PP-OCRv4 mobile.
-
-Feed the model line-by-line, not full page
-
-Detect text lines (Paddle’s detector or simple projection).
-
-Crop, slightly upscale each line (e.g. 2× with cv2.resize).
-
-Run OCR on each line; this usually improves accuracy a lot.
-
-Add a Turkish post-correction step
-
-After OCR, run a Turkish spellchecker / language model to fix obvious errors:
-
-e.g. “gerçekten cok dojru seyler” → “gerçekten çok doğru şeyler”.
-
-If you want really good accuracy:
-
-Collect 100–200 of your own labeled lines and fine-tune a handwriting model on your style + Turkish.
-
-
-#### paddle ocr detection + microsoft TROCR detection.
-
-
-
-1) Tesseract (with Turkish language pack)
-
-Classic open-source OCR engine, very mature.
-
-Has official Turkish models (tur, tur_best, tur_fast).
-
-Works well for printed Turkish text if you do good binarization; very weak for handwriting.
-
-Python: pytesseract.image_to_string(img, lang="tur").
-
-For your project:
-Use it as a 4th recognizer only on printed parts / numbers, not for handwriting.
-
-2) DocTR (Mindee)
-
-Deep-learning OCR library in Python (TensorFlow / PyTorch). Listed among top OCR frameworks with Paddle, Easy, MMOCR, Keras-OCR, TrOCR, etc.
-
-You already imported doctr.io.DocumentFile earlier, so you basically have it in the project.
-
-Good for Latin printed text; handwriting support is limited.
-
-For your project:
-You can keep a DocTR baseline on the whole page or on crops, mainly for English / neat writing.
-
-3) MMOCR (OpenMMLab)
-
-Full CV framework for OCR; includes many detectors (DB, PSENet, CRAFT) and recognizers (CRNN, SAR, etc.).
-
-Great if you want to experiment with different architectures or fine-tune on your own Turkish data.
-
-Heavy, config-driven; overkill if you just want a quick extra model.
-
-For your project:
-Only worth it if you want a research angle (e.g. “we trained our own recognizer on a Turkish dataset”).
-
-4) Keras-OCR
-
-Simple Python pipeline built around CRAFT detector + CRNN recognizer.
-
-Good for experimenting; mainly tuned for English scene text.
-
-You can feed it your cropped line images similarly to TrOCR.
-
-For your project:
-Good optional extra recognizer; again, expect weak performance on messy Turkish handwriting unless you re-train.
-
-5) Handwriting-specific frameworks (for custom training)
-
-If you ever decide to train your own Turkish handwritten model, these are serious options:
-
-Kraken – turnkey OCR engine optimized for historical and non-Latin scripts; heavily used via Transkribus.
-
-Calamari – OCR engine that outperforms ABBYY/Tesseract on historical Fraktur when trained properly.
-
-PyLaia – strong open-source handwriting/ATR library with recent improvements.
-
-But all of these require you to collect/label Turkish handwriting data → too big for a typical course project.
-
-6) Cloud / commercial services (if you accept APIs)
-
-If you just want “strongest practical OCR” and don’t care that it’s not open-source:
-
-Google Cloud Vision / Document AI – multi-language OCR including Turkish, with handwriting support in many scripts.
-
-Azure Vision Read / Document Intelligence – supports many languages; handwriting support mainly for big languages (English, etc.), printed Turkish is supported.
-
-ABBYY FineReader / SDK – very strong commercial engine with Turkish support.
-
-You’d call these via REST; not ideal if the assignment wants pure local / open-source.
+## Stretch goals
+- Collect a small labeled set of your own handwriting lines and fine-tune a handwriting model (TrOCR/CRNN) for Turkish.
+- Benchmark multiple detectors (PaddleOCR DB vs. CRAFT) and see if better localization helps recognition.
+- Automate a comparison script that runs all enabled recognizers on saved line crops and reports per-line metrics.
