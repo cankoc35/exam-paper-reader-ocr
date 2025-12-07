@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 base_dir = Path(__file__).resolve().parent.parent
-img_path = str(base_dir / "data" / "example_exam_05.jpeg")
+img_path = str(base_dir / "data" / "example_exam_03.jpeg")
 
 img = cv2.imread(img_path)
 if img is None:
