@@ -1,0 +1,78 @@
+{
+  "run_name": "example_exam_07_20251211-004936",
+  "image_name": "example_exam_07.jpeg",
+  "results": [
+    {
+      "line_id": 0,
+      "bbox": [
+        1013,
+        79,
+        1069,
+        159
+      ],
+      "paddle_text": "NOTE",
+      "paddle_score": 0.9997654557228088,
+      "trocr_text": "7g."
+    },
+    {
+      "line_id": 1,
+      "bbox": [
+        1394,
+        218,
+        1487,
+        306
+      ],
+      "paddle_text": "8/3",
+      "paddle_score": 0.6714511513710022,
+      "trocr_text": "assel"
+    },
+    {
+      "line_id": 2,
+      "bbox": [
+        703,
+        188,
+        1109,
+        891
+      ],
+      "paddle_text": "3- Boss fights make food  . stoos,",
+      "paddle_score": 0.7804655432701111,
+      "trocr_text": "0 0"
+    },
+    {
+      "line_id": 3,
+      "bbox": [
+        464,
+        256,
+        842,
+        917
+      ],
+      "paddle_text": "5- Calunlate 15+25 Maybe 45",
+      "paddle_score": 0.7781960964202881,
+      "trocr_text": "0 0"
+    },
+    {
+      "line_id": 4,
+      "bbox": [
+        389,
+        286,
+        731,
+        899
+      ],
+      "paddle_text": "6- What would be the result",
+      "paddle_score": 0.9347309470176697,
+      "trocr_text": "0 0"
+    },
+    {
+      "line_id": 5,
+      "bbox": [
+        378,
+        381,
+        669,
+        889
+      ],
+      "paddle_text": "((75-85)/12)75-12",
+      "paddle_score": 0.8835786581039429,
+      "trocr_text": "THE PREDEROUS Program for the"
+    }
+  ]
+}

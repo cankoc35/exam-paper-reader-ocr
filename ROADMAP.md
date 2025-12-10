@@ -2,6 +2,8 @@
 
 Structured plan to improve OCR quality on Turkish/Latin exam pages. Follow the phases in order; add optional experiments as time permits.
 
+Recent results: PaddleOCR detection + recognition and TrOCR both performed well on English handwritten test pages. EasyOCR performed poorly on handwriting and has been removed from the active pipeline.
+
 ## Phase 1: Input cleanup and detection
 - Crop and deskew pages; tighten margins to remove shadows and borders.
 - Light preprocessing before OCR: grayscale, gentle contrast normalization, mild denoise (avoid harsh binarization).
@@ -11,7 +13,7 @@ Structured plan to improve OCR quality on Turkish/Latin exam pages. Follow the p
 ## Phase 2: Line-centric recognition
 - Use a handwriting-friendly recognizer (TrOCR, PARSeq) instead of default PP-OCRv4 mobile for cursive lines.
 - Process line-by-line: detect text lines (PaddleOCR detector or projection), crop, slightly upscale (e.g., 2x via `cv2.resize`), then recognize.
-- Keep PaddleOCR text output as a baseline; compare against TrOCR/EasyOCR on the same line crops.
+- Keep PaddleOCR text output as a baseline; compare against TrOCR on the same line crops. EasyOCR was dropped after poor handwriting results, but can be reintroduced only if focusing on cleaner printed text.
 
 ## Phase 3: Language-aware post-processing
 - Add Turkish post-correction (spellchecker or lightweight language model) to fix obvious errors.

@@ -1,0 +1,162 @@
+{
+  "run_name": "example_exam_06_20251211-005336",
+  "image_name": "example_exam_06.jpeg",
+  "results": [
+    {
+      "line_id": 0,
+      "bbox": [
+        157,
+        79,
+        218,
+        112
+      ],
+      "paddle_text": "NOTE:",
+      "paddle_score": 0.9856063723564148,
+      "trocr_text": "note ."
+    },
+    {
+      "line_id": 1,
+      "bbox": [
+        177,
+        152,
+        718,
+        219
+      ],
+      "paddle_text": "1- go minutes of peometry and on again",
+      "paddle_score": 0.9026850461959839,
+      "trocr_text": "1 notification of geometry and on again"
+    },
+    {
+      "line_id": 2,
+      "bbox": [
+        185,
+        186,
+        644,
+        245
+      ],
+      "paddle_text": "nothing else can be done sometimes.",
+      "paddle_score": 0.9415403008460999,
+      "trocr_text": "nothing else can be done to some kinds ."
+    },
+    {
+      "line_id": 3,
+      "bbox": [
+        174,
+        237,
+        657,
+        295
+      ],
+      "paddle_text": "2- Its only the Same when the rules",
+      "paddle_score": 0.9384353756904602,
+      "trocr_text": "fant's only the same when the rules"
+    },
+    {
+      "line_id": 4,
+      "bbox": [
+        174,
+        267,
+        638,
+        330
+      ],
+      "paddle_text": "change. Friendships would never end.",
+      "paddle_score": 0.9506819844245911,
+      "trocr_text": "change . Friendships could never lend ."
+    },
+    {
+      "line_id": 5,
+      "bbox": [
+        168,
+        317,
+        684,
+        383
+      ],
+      "paddle_text": "3- Boss fights make pood  .stoos",
+      "paddle_score": 0.899846076965332,
+      "trocr_text": "3, B.5 fights make good letter that stops ,"
+    },
+    {
+      "line_id": 6,
+      "bbox": [
+        176,
+        351,
+        684,
+        418
+      ],
+      "paddle_text": "stroies jo preat with some coffee.",
+      "paddle_score": 0.9220593571662903,
+      "trocr_text": "stories to great with the"
+    },
+    {
+      "line_id": 7,
+      "bbox": [
+        164,
+        405,
+        726,
+        471
+      ],
+      "paddle_text": "4 - weelly but line up for more because",
+      "paddle_score": 0.9658682346343994,
+      "trocr_text": "\" I saw really but , like up for more because"
+    },
+    {
+      "line_id": 8,
+      "bbox": [
+        160,
+        435,
+        634,
+        507
+      ],
+      "paddle_text": "hope is the read-match day fuel.",
+      "paddle_score": 0.8996437788009644,
+      "trocr_text": "hope to the real-match Play-quel ."
+    },
+    {
+      "line_id": 9,
+      "bbox": [
+        158,
+        492,
+        624,
+        561
+      ],
+      "paddle_text": "5- Calculate 15+25 maybe 45",
+      "paddle_score": 0.8409382104873657,
+      "trocr_text": "5-Calculate 15425maybe 45"
+    },
+    {
+      "line_id": 10,
+      "bbox": [
+        147,
+        555,
+        592,
+        615
+      ],
+      "paddle_text": "6- What would be the result",
+      "paddle_score": 0.9460751414299011,
+      "trocr_text": "to . What would be the result"
+    },
+    {
+      "line_id": 11,
+      "bbox": [
+        219,
+        592,
+        550,
+        650
+      ],
+      "paddle_text": "((75-85)/12)75.12",
+      "paddle_score": 0.8981977105140686,
+      "trocr_text": "CCPS-850429. As. 1 ?"
+    },
+    {
+      "line_id": 12,
+      "bbox": [
+        443,
+        770,
+        675,
+        810
+      ],
+      "paddle_text": "3",
+      "paddle_score": 0.3556954860687256,
+      "trocr_text": "spoken"
+    }
+  ]
+}

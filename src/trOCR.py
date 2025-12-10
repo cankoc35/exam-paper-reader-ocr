@@ -17,7 +17,7 @@ def predict_trocr(image):
         raise TypeError("predict_trocr expects np.ndarray or PIL.Image")
     image = image.convert("RGB")
     inputs = processor(images=image, return_tensors="pt").to(device)
-    with torch.no_grad():
+    with torch.inference_mode():
         ids = model.generate(**inputs, max_length=128)
     return processor.batch_decode(ids, skip_special_tokens=True)[0]
 

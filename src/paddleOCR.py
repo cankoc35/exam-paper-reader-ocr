@@ -1,7 +1,7 @@
 from paddleocr import PaddleOCR
 
 paddle_ocr = PaddleOCR(
-    lang="tr",
+    lang="en",
     ocr_version="PP-OCRv5",
     use_doc_orientation_classify=False,
     use_doc_unwarping=False,

@@ -1,0 +1,198 @@
+{
+  "run_name": "example_exam_01_20251211-000403",
+  "image_name": "example_exam_01.jpeg",
+  "results": [
+    {
+      "line_id": 0,
+      "bbox": [
+        65,
+        265,
+        161,
+        304
+      ],
+      "paddle_text": "NOTE:",
+      "paddle_score": 0.9940618276596069,
+      "trocr_text": "note ."
+    },
+    {
+      "line_id": 1,
+      "bbox": [
+        124,
+        334,
+        273,
+        398
+      ],
+      "paddle_text": "Test",
+      "paddle_score": 0.994297981262207,
+      "trocr_text": "test"
+    },
+    {
+      "line_id": 2,
+      "bbox": [
+        157,
+        403,
+        948,
+        483
+      ],
+      "paddle_text": "Real Madrid is the best team",
+      "paddle_score": 0.8664936423301697,
+      "trocr_text": "Real Madrid is the best team"
+    },
+    {
+      "line_id": 3,
+      "bbox": [
+        107,
+        480,
+        452,
+        524
+      ],
+      "paddle_text": "in the world.",
+      "paddle_score": 0.9771763682365417,
+      "trocr_text": "in the world ."
+    },
+    {
+      "line_id": 4,
+      "bbox": [
+        168,
+        550,
+        804,
+        628
+      ],
+      "paddle_text": "I don't apree with you.",
+      "paddle_score": 0.8535153865814209,
+      "trocr_text": "I don't agree with you ."
+    },
+    {
+      "line_id": 5,
+      "bbox": [
+        169,
+        643,
+        767,
+        720
+      ],
+      "paddle_text": "Let's go to the clnema.",
+      "paddle_score": 0.8588225245475769,
+      "trocr_text": "Let's go to the cinema ."
+    },
+    {
+      "line_id": 6,
+      "bbox": [
+        163,
+        720,
+        1067,
+        810
+      ],
+      "paddle_text": "Data scicce turns data into real",
+      "paddle_score": 0.8283944725990295,
+      "trocr_text": "Data science turns data into real"
+    },
+    {
+      "line_id": 7,
+      "bbox": [
+        123,
+        791,
+        366,
+        842
+      ],
+      "paddle_text": "decisions.",
+      "paddle_score": 0.9506231546401978,
+      "trocr_text": "decisions ."
+    },
+    {
+      "line_id": 8,
+      "bbox": [
+        160,
+        868,
+        998,
+        941
+      ],
+      "paddle_text": "Machine learning isone tool inside",
+      "paddle_score": 0.8590415120124817,
+      "trocr_text": "Machine learning is one tool inside"
+    },
+    {
+      "line_id": 9,
+      "bbox": [
+        104,
+        931,
+        455,
+        989
+      ],
+      "paddle_text": "data science.",
+      "paddle_score": 0.9328652620315552,
+      "trocr_text": "data science ."
+    },
+    {
+      "line_id": 10,
+      "bbox": [
+        152,
+        1009,
+        1049,
+        1089
+      ],
+      "paddle_text": "Deploying a model is the lest step",
+      "paddle_score": 0.8404845595359802,
+      "trocr_text": "Deploying a model is the last step"
+    },
+    {
+      "line_id": 11,
+      "bbox": [
+        101,
+        1080,
+        470,
+        1139
+      ],
+      "paddle_text": "in the process.",
+      "paddle_score": 0.9570846557617188,
+      "trocr_text": "in the process ."
+    },
+    {
+      "line_id": 12,
+      "bbox": [
+        151,
+        1151,
+        1112,
+        1237
+      ],
+      "paddle_text": "Mid frelders controls the rythm of the",
+      "paddle_score": 0.8716053366661072,
+      "trocr_text": "midfielders controls the rhythm of the"
+    },
+    {
+      "line_id": 13,
+      "bbox": [
+        96,
+        1218,
+        285,
+        1279
+      ],
+      "paddle_text": "match.",
+      "paddle_score": 0.9372625946998596,
+      "trocr_text": "match . '"
+    },
+    {
+      "line_id": 14,
+      "bbox": [
+        156,
+        1309,
+        1104,
+        1379
+      ],
+      "paddle_text": "A pood striker needs pace and very",
+      "paddle_score": 0.8664345145225525,
+      "trocr_text": "A good striker needs pace and very"
+    },
+    {
+      "line_id": 15,
+      "bbox": [
+        104,
+        1365,
+        587,
+        1433
+      ],
+      "paddle_text": "constant movement.",
+      "paddle_score": 0.967469334602356,
+      "trocr_text": "constant movement ."
+    }
+  ]
+}
