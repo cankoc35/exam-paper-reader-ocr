@@ -161,7 +161,7 @@ def main(img_path: Optional[str] = None):
     if img is None:
         raise FileNotFoundError(f"Could not read image: {effective_path}")
 
-    cropped = segment_page(img)
+    cropped = segment_page(img, image_name=effective_path.name)
     if cropped is None:
         print("No page contour found, nothing to OCR.")
         return
