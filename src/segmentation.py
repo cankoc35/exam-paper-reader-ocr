@@ -1,9 +1,14 @@
 # segmentation.py
 from pathlib import Path
+from typing import Optional, Tuple, Union
+
 import cv2
 import numpy as np
 
-def segment_page(img_bgr: np.ndarray, return_debug: bool = False) -> np.ndarray | tuple[np.ndarray | None, np.ndarray | None]:
+def segment_page(
+    img_bgr: np.ndarray,
+    return_debug: bool = False,
+) -> Union[Optional[np.ndarray], Tuple[Optional[np.ndarray], Optional[np.ndarray]]]:
     # Segment the main page area from the input image.
     gray = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2GRAY)
 
@@ -55,7 +60,7 @@ def segment_page(img_bgr: np.ndarray, return_debug: bool = False) -> np.ndarray 
     return cropped
 
 if __name__ == "__main__":
-    TEST_IMAGE_PATH = Path(__file__).resolve().parent.parent / "data" / "example_exam_07.jpeg"
+    TEST_IMAGE_PATH = Path(__file__).resolve().parent.parent / "data" / "exam06.jpeg"
     img = cv2.imread(str(TEST_IMAGE_PATH))
     if img is None:
         raise FileNotFoundError(TEST_IMAGE_PATH)

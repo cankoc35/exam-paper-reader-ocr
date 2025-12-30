@@ -62,9 +62,11 @@ exam-paper-reader-ocr/
 
 ## Development Setup
 
-1) Create venv: `python -m venv venv`  
-2) Activate: `source venv\Scripts\activate` (Windows) or `source venv/bin/activate` (macOS/Linux)  
-3) Install deps: `pip install -r requirements.txt`
+1) Create venv: `python -m venv venv` or `python3 -m venv venv`
+2) Activate: `source venv\Scripts\activate` (Windows) or `source venv/bin/activate` (macOS/Linux) 
+3) upgrade pip `python -m pip install --upgrade pip`
+4) Install deps: `pip install -r requirements.txt`
+5) deactivate: `deactivate`
 
 ### Running the sample
 

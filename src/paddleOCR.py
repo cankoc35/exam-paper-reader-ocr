@@ -27,3 +27,14 @@ def get_paddle_items(image_bgr):
         })
     
     return paddleOCR_items
+
+if __name__ == "__main__":
+    import cv2
+    from pathlib import Path
+
+    IMAGE_PATH = Path(__file__).resolve().parent.parent / "data" / "exam04.png"
+    image_bgr = cv2.imread(str(IMAGE_PATH))
+
+    items = get_paddle_items(image_bgr)
+    for item in items:
+        print(f"Detected text: {item['text']} (Score: {item['score']:.2f})")
