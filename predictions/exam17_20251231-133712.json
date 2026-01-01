@@ -1,0 +1,559 @@
+{
+  "run_name": "exam17_20251231-133712",
+  "image_name": "exam17.png",
+  "results": [
+    {
+      "line_id": 0,
+      "bbox": [
+        235,
+        51,
+        629,
+        77
+      ],
+      "paddle_text": "HANDWRITTEN EXAM SHEET (OCR EVALUATION)",
+      "trocr_text": {
+        "base": "HANDWRITTEN EXAM SHEET (OCR EVALUATION)",
+        "large": "HANDWRITTEN EXAM SHEET (OCR EVALUATION)"
+      },
+      "easyocr": [
+        "MANDWATTEN EXAM SHEET (OCR EVALUATION"
+      ]
+    },
+    {
+      "line_id": 1,
+      "bbox": [
+        189,
+        76,
+        489,
+        100
+      ],
+      "paddle_text": "Section A — Numeric & Symbolic Answers",
+      "trocr_text": {
+        "base": "SECTION A - NUMERIC & SYMBOLIC ANSWERS",
+        "large": "SECTION A - NUMERIC & SYMBOLIC ANSWERS"
+      },
+      "easyocr": [
+        "Sacnon",
+        "uCTIO",
+        "Symbolic"
+      ]
+    },
+    {
+      "line_id": 2,
+      "bbox": [
+        187,
+        97,
+        279,
+        117
+      ],
+      "paddle_text": "1)3010=20",
+      "trocr_text": {
+        "base": "1) 30 - 10 - 20",
+        "large": "1) 30 - 10 - 20"
+      },
+      "easyocr": []
+    },
+    {
+      "line_id": 3,
+      "bbox": [
+        185,
+        111,
+        277,
+        131
+      ],
+      "paddle_text": "2)7×8=56",
+      "trocr_text": {
+        "base": "2)7X8- 56",
+        "large": "2)7X8- 56"
+      },
+      "easyocr": [
+        "56"
+      ]
+    },
+    {
+      "line_id": 4,
+      "bbox": [
+        183,
+        125,
+        274,
+        146
+      ],
+      "paddle_text": "3)96÷6=<6",
+      "trocr_text": {
+        "base": "3) 96+6- 16",
+        "large": "3) 96+6- 16"
+      },
+      "easyocr": []
+    },
+    {
+      "line_id": 5,
+      "bbox": [
+        182,
+        138,
+        288,
+        161
+      ],
+      "paddle_text": "4)-18+11=-π",
+      "trocr_text": {
+        "base": "4)-18+11- - 4",
+        "large": "4)-18+11 - - 1"
+      },
+      "easyocr": []
+    },
+    {
+      "line_id": 6,
+      "bbox": [
+        181,
+        158,
+        277,
+        175
+      ],
+      "paddle_text": "5)2.4+3=5.4",
+      "trocr_text": {
+        "base": "5) 24+3- 5/4",
+        "large": "8) 2.4+ 3 - 5.4"
+      },
+      "easyocr": [
+        "54"
+      ]
+    },
+    {
+      "line_id": 7,
+      "bbox": [
+        178,
+        172,
+        273,
+        191
+      ],
+      "paddle_text": "6)92-47=45",
+      "trocr_text": {
+        "base": "6) 92 - 47 - 4 5\"",
+        "large": "6) 92 - 47 - 45"
+      },
+      "easyocr": []
+    },
+    {
+      "line_id": 8,
+      "bbox": [
+        177,
+        189,
+        245,
+        207
+      ],
+      "paddle_text": "7) $3^{3}=2",
+      "trocr_text": {
+        "base": "7)3\"- 2\"",
+        "large": "7)33 - 23"
+      },
+      "easyocr": []
+    },
+    {
+      "line_id": 9,
+      "bbox": [
+        174,
+        203,
+        270,
+        222
+      ],
+      "paddle_text": "8150÷5=30",
+      "trocr_text": {
+        "base": "8) 150+5= 10",
+        "large": "8) 150+5= 30"
+      },
+      "easyocr": [
+        "Jo"
+      ]
+    },
+    {
+      "line_id": 10,
+      "bbox": [
+        172,
+        218,
+        269,
+        238
+      ],
+      "paddle_text": "938-19=19",
+      "trocr_text": {
+        "base": "9) 38-19- 19",
+        "large": "9) 38-19-19"
+      },
+      "easyocr": []
+    },
+    {
+      "line_id": 11,
+      "bbox": [
+        170,
+        233,
+        268,
+        256
+      ],
+      "paddle_text": "10)9×9=51",
+      "trocr_text": {
+        "base": "10)9X9- S1",
+        "large": "10)9X9- 81"
+      },
+      "easyocr": [
+        "10) 9 * 9"
+      ]
+    },
+    {
+      "line_id": 12,
+      "bbox": [
+        164,
+        282,
+        433,
+        308
+      ],
+      "paddle_text": "Section B — Single Word Answers",
+      "trocr_text": {
+        "base": "SECTION B - SINGLE WORLD ANSWERS",
+        "large": "SECTION B - SINGLE WORD ANSWERS"
+      },
+      "easyocr": [
+        "Section B",
+        "Singlc Word Answers"
+      ]
+    },
+    {
+      "line_id": 13,
+      "bbox": [
+        162,
+        306,
+        439,
+        336
+      ],
+      "paddle_text": "11) Opposite of \"minimum\": imum",
+      "trocr_text": {
+        "base": "11) OPPOSITE OF \"MINIMUM\":_MYMASLIM",
+        "large": "11) OPPOSITE OF \"MINIMUM\": MAXIMUM"
+      },
+      "easyocr": [
+        "Onnosir"
+      ]
+    },
+    {
+      "line_id": 14,
+      "bbox": [
+        159,
+        329,
+        469,
+        363
+      ],
+      "paddle_text": "12) Word meaning \"not allowed\": orbidden",
+      "trocr_text": {
+        "base": "12) WORLD MEENING \"NOT ALLOWED\": PORDIDEL",
+        "large": "12) WORD MEANING \"NOT ALLOWED\": PORBIDDEN"
+      },
+      "easyocr": [
+        "12) Word meaning",
+        "oved\"",
+        "forLi dden"
+      ]
+    },
+    {
+      "line_id": 15,
+      "bbox": [
+        448,
+        355,
+        513,
+        384
+      ],
+      "paddle_text": "green",
+      "trocr_text": {
+        "base": "GREEN",
+        "large": "GREEN"
+      },
+      "easyocr": [
+        "gcen"
+      ]
+    },
+    {
+      "line_id": 16,
+      "bbox": [
+        156,
+        359,
+        430,
+        386
+      ],
+      "paddle_text": "13) Color formed by mixing blue and yellow: ",
+      "trocr_text": {
+        "base": "13) COLOR FORMED BY MIXING BLUE AND YELLOW:",
+        "large": "13) COLOR FORMED BY MIXING BLUE AND YELLOW:"
+      },
+      "easyocr": [
+        "Colat",
+        "formed by",
+        "mnanE",
+        "plue",
+        "ceov"
+      ]
+    },
+    {
+      "line_id": 17,
+      "bbox": [
+        367,
+        383,
+        464,
+        407
+      ],
+      "paddle_text": "2nalyses",
+      "trocr_text": {
+        "base": "ONALYSES",
+        "large": "ONALYSES"
+      },
+      "easyocr": [
+        "Ona Lzes"
+      ]
+    },
+    {
+      "line_id": 18,
+      "bbox": [
+        154,
+        389,
+        292,
+        410
+      ],
+      "paddle_text": "14) Plural of \"analysis\":",
+      "trocr_text": {
+        "base": "14) PLURAL OF \"ANALYSIS\":",
+        "large": "14) PLURAL OF \"ANALYSIS\":"
+      },
+      "easyocr": [
+        "Plra"
+      ]
+    },
+    {
+      "line_id": 19,
+      "bbox": [
+        149,
+        406,
+        478,
+        442
+      ],
+      "paddle_text": "1 Animal with black and white stripes: ebra",
+      "trocr_text": {
+        "base": "15) ANIMAL WITH BLACK AND WHITE STRIPES: SELBLE",
+        "large": "15) ANIMAL WITH BLACK AND WHITE STRIPES:"
+      },
+      "easyocr": [
+        "15) Animnl with black and white stripes",
+        "ack?"
+      ]
+    },
+    {
+      "line_id": 20,
+      "bbox": [
+        392,
+        435,
+        468,
+        459
+      ],
+      "paddle_text": "wrode",
+      "trocr_text": {
+        "base": "WHOLE",
+        "large": "WHOLE"
+      },
+      "easyocr": []
+    },
+    {
+      "line_id": 21,
+      "bbox": [
+        147,
+        441,
+        300,
+        467
+      ],
+      "paddle_text": "1) Past tense of \"write\":",
+      "trocr_text": {
+        "base": "16) PAST TENSE OF \"WRITE\":",
+        "large": "16) PAST TENSE OF \"WRITE\":"
+      },
+      "easyocr": [
+        "16) Past",
+        "RaueO",
+        "Trite"
+      ]
+    },
+    {
+      "line_id": 22,
+      "bbox": [
+        137,
+        516,
+        445,
+        546
+      ],
+      "paddle_text": "Section C — Short Phrase Answers",
+      "trocr_text": {
+        "base": "SECTION C - SHORT PHASE ANSWERS",
+        "large": "SECTION C - SHORT PHRASE ANSWERS"
+      },
+      "easyocr": [
+        "Section",
+        "Short Phrase",
+        "Answers"
+      ]
+    },
+    {
+      "line_id": 23,
+      "bbox": [
+        134,
+        543,
+        292,
+        567
+      ],
+      "paddle_text": "(Write 2-3 words exactly)",
+      "trocr_text": {
+        "base": "(WRITE 2-3 WORDS EXACTLY)",
+        "large": "(WRITE 2-3 WORDS EXACTLY)"
+      },
+      "easyocr": [
+        "(Wrte 2-3 words cractly"
+      ]
+    },
+    {
+      "line_id": 24,
+      "bbox": [
+        131,
+        563,
+        402,
+        590
+      ],
+      "paddle_text": "17) Technology for reading text from images:",
+      "trocr_text": {
+        "base": "17) TECHNOLOGY FOR READING TEXT FROM IMAGES:",
+        "large": "17) TECHNOLOGY FOR READING TEXT FROM IMAGES:"
+      },
+      "easyocr": [
+        "17) Technology for reading",
+        "Lert",
+        "from images"
+      ]
+    },
+    {
+      "line_id": 25,
+      "bbox": [
+        150,
+        569,
+        501,
+        619
+      ],
+      "paddle_text": "opticc character rego gnition",
+      "trocr_text": {
+        "base": "OP-UCEF CHARACER REG O ENITION.",
+        "large": "OPTICEL CHARACTER REG . ENITION"
+      },
+      "easyocr": [
+        "Op-lce",
+        "chcrcckc",
+        "Ce",
+        "gnflion"
+      ]
+    },
+    {
+      "line_id": 26,
+      "bbox": [
+        126,
+        609,
+        392,
+        637
+      ],
+      "paddle_text": "18) Field that combines data and statistics:",
+      "trocr_text": {
+        "base": "18) FIELD THAT COMBINES DATE AND STATISTICS:",
+        "large": "18) FIELD THAT COMBINES DATE AND STATISTICS:"
+      },
+      "easyocr": [
+        "18) Field that",
+        "combines data",
+        "statistics"
+      ]
+    },
+    {
+      "line_id": 27,
+      "bbox": [
+        135,
+        632,
+        292,
+        663
+      ],
+      "paddle_text": "clote science",
+      "trocr_text": {
+        "base": "CLELL SCENCE",
+        "large": "DATE SCENCE"
+      },
+      "easyocr": [
+        "0-48",
+        "Sceace"
+      ]
+    },
+    {
+      "line_id": 28,
+      "bbox": [
+        121,
+        658,
+        355,
+        687
+      ],
+      "paddle_text": "19) Portable computer used for work:",
+      "trocr_text": {
+        "base": "19) PORTABLE COMPUTER USED FOR WORK:",
+        "large": "19) PORTABLE COMPUTER USED FOR WORK:"
+      },
+      "easyocr": [
+        "19) Portable computer used for work"
+      ]
+    },
+    {
+      "line_id": 29,
+      "bbox": [
+        142,
+        684,
+        323,
+        715
+      ],
+      "paddle_text": "Leptop comprter",
+      "trocr_text": {
+        "base": "LAPTAP COMAGER",
+        "large": "LEPTOP COMPLER"
+      },
+      "easyocr": [
+        "Lptep",
+        "Cema"
+      ]
+    },
+    {
+      "line_id": 30,
+      "bbox": [
+        115,
+        708,
+        385,
+        737
+      ],
+      "paddle_text": "20) Method used to train neural networks:",
+      "trocr_text": {
+        "base": "20) METHOD USED TO TRAIN NEURAL NETWORK:",
+        "large": "20) METHOD USED TO TRAIN NEURAL NETWORKS:"
+      },
+      "easyocr": [
+        "20) Mechod used t0 train neural networks-"
+      ]
+    },
+    {
+      "line_id": 31,
+      "bbox": [
+        125,
+        744,
+        317,
+        788
+      ],
+      "paddle_text": "backpropegctior",
+      "trocr_text": {
+        "base": "BA CKPRAPE@CHION",
+        "large": "BAKEKPROPERTION"
+      },
+      "easyocr": [
+        "bc ekpreeze-ior"
+      ]
+    }
+  ]
+}

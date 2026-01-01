@@ -1,0 +1,266 @@
+{
+  "run_name": "exam39_20251231-140450",
+  "image_name": "exam39.png",
+  "results": [
+    {
+      "question": "1",
+      "paddle_text": "130-10=2",
+      "trocr_text": {
+        "base": "1) 30-10= 20",
+        "large": "1) 30 - 10 = 20"
+      },
+      "easyocr": [
+        "j30"
+      ]
+    },
+    {
+      "question": "2",
+      "paddle_text": "2)7×8=56",
+      "trocr_text": {
+        "base": "2)7X8= 56",
+        "large": "2) 7X8- 56"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "3",
+      "paddle_text": "396÷6=16",
+      "trocr_text": {
+        "base": "3) 96 + 6 = 16",
+        "large": "3) 96+6- 16"
+      },
+      "easyocr": [
+        "31496"
+      ]
+    },
+    {
+      "question": "4",
+      "paddle_text": "4)-18+11=-7",
+      "trocr_text": {
+        "base": "4)-18+11= - 7",
+        "large": "4) -18+11 = -7"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "5",
+      "paddle_text": "5)2.4+3=5.4",
+      "trocr_text": {
+        "base": "5) 24+3= 5,4",
+        "large": "5) 2.4 + 3 = 5.4"
+      },
+      "easyocr": [
+        "52+8"
+      ]
+    },
+    {
+      "question": "6",
+      "paddle_text": "692-47=45",
+      "trocr_text": {
+        "base": "6) 92 - 47 = 4 5",
+        "large": "6) 92 - 47 = 45"
+      },
+      "easyocr": [
+        "47 =",
+        "45"
+      ]
+    },
+    {
+      "question": "7",
+      "paddle_text": "$7) {^8}=}27",
+      "trocr_text": {
+        "base": "7)33 - 27",
+        "large": "7)33 - 23"
+      },
+      "easyocr": [
+        "7)32",
+        "07"
+      ]
+    },
+    {
+      "question": "8",
+      "paddle_text": "8150÷5=30",
+      "trocr_text": {
+        "base": "8) 150 + 5 = 30",
+        "large": "8) 150 + 5 = 30"
+      },
+      "easyocr": [
+        "810450"
+      ]
+    },
+    {
+      "question": "9",
+      "paddle_text": "938-19=17",
+      "trocr_text": {
+        "base": "9) 38 - 19 = 1 7",
+        "large": "9) 38 - 19 = 17"
+      },
+      "easyocr": [
+        "91.38"
+      ]
+    },
+    {
+      "question": "10",
+      "paddle_text": "10)9×9=81",
+      "trocr_text": {
+        "base": "10) 9 X 9 = 84",
+        "large": "10) 9 X 9 = 84"
+      },
+      "easyocr": [
+        "10) 9 * 9 ="
+      ],
+      "followup": {
+        "paddle_text": "Section B -Single Word Answers",
+        "trocr_text": {
+          "base": "SECTION B - SINGLE WORLD ANSWERS",
+          "large": "SECTION B - SINGLE WORD ANSWERS"
+        },
+        "easyocr": [
+          "Section B",
+          "Single Word Answers"
+        ]
+      }
+    },
+    {
+      "question": "11",
+      "paddle_text": "11) Opposite of \"minimum\": Maximum",
+      "trocr_text": {
+        "base": "11) OPPOSITE OF \"MINIM\" :_MAXIMURA",
+        "large": "11) OPPOSITE OF \"MINIMUM\": MAXIMUM"
+      },
+      "easyocr": [
+        "H1) Opposite of",
+        "laiy"
+      ]
+    },
+    {
+      "question": "1",
+      "paddle_text": "1) Word meaning \"not allowed\": arbidden",
+      "trocr_text": {
+        "base": "12) WORLD MEANING \"NOT ALLOWED\": FOR BIADEN",
+        "large": "12) WORD MEANING \"NOT ALLOWED\": PER BIDDEN"
+      },
+      "easyocr": [
+        "12) Word meaning",
+        "allowed\"",
+        "fecbiddea",
+        "\"not"
+      ]
+    },
+    {
+      "question": "13",
+      "paddle_text": "13) Color formed by mixing blue and yellow: Ceen",
+      "trocr_text": {
+        "base": "13) COLOR FORMED BY MIXING BLUE AND YELLOW: 9CEED",
+        "large": "13) COLOR FORMED BY MISANG BLUE AND YELLOW: SCERN"
+      },
+      "easyocr": [
+        "13) Color formed by mixing blue",
+        "velov;",
+        "9c20"
+      ]
+    },
+    {
+      "question": "14",
+      "paddle_text": "14) Plural of \"analysis\": analyses",
+      "trocr_text": {
+        "base": "14) PLARAI OF \"ANALYSIS\": _ANALY SES",
+        "large": "14) PLURAL OF \"ANALYSIS\": ANALYSES"
+      },
+      "easyocr": [
+        "14) Plural of \"analysis\"",
+        "Ana",
+        "Ses"
+      ]
+    },
+    {
+      "question": "15",
+      "paddle_text": "1 Animal with black and white stripes:eha",
+      "trocr_text": {
+        "base": "15) ANIMAL WITH BLACK AND WHITE STRIPES: _DEBRA",
+        "large": "15) ANIMAL WITH BLACK AND WHITE STRIPS: ZELCA"
+      },
+      "easyocr": [
+        "15) Animal with black and white stripes:"
+      ]
+    },
+    {
+      "question": "16",
+      "paddle_text": "16) Past tense of \"write\": W/Cote",
+      "trocr_text": {
+        "base": "16) PAST TENSE OF \"WRITE\": _W/CATE",
+        "large": "16) PAST TENSE OF \"WRITE\": WCOLE"
+      },
+      "easyocr": [
+        "16) Past",
+        "Ha",
+        "of \"write\"",
+        "WCole"
+      ],
+      "followup": {
+        "paddle_text": "Section C - Short Phrase Answers",
+        "trocr_text": {
+          "base": "SECTION C - SHORT PHASE ANSWERS",
+          "large": "SECTION C - SHORT PHRASE ANSWERS"
+        },
+        "easyocr": [
+          "Section",
+          "Short Phrase Answers"
+        ]
+      }
+    },
+    {
+      "question": "17",
+      "paddle_text": " Techno reading ext fo image optical character recognitian",
+      "trocr_text": {
+        "base": "IN TEHANGY IN MAHIG EXT ROM INVOICE OPPICEAL CHARACHER FACEGNILIAN",
+        "large": "17) TECHNOLOGY FOR RESUING TAX TRANSIMERS OF FICAL CHARACTER RECEGRITION"
+      },
+      "easyocr": [
+        "17) Technology for reading text from",
+        "laes:",
+        "optica",
+        "character recagnilion"
+      ]
+    },
+    {
+      "question": "1",
+      "paddle_text": "1) Field that combines data and statistics: data science",
+      "trocr_text": {
+        "base": "18) FLAD HART CONDINES DATE AND STATISLES DATE, S CIONCE",
+        "large": "18) FIELD THAT COMBINES DATE AND STATISTICS: DATE SCIENCE"
+      },
+      "easyocr": [
+        "18) Field that combines data and statistics:",
+        "dat",
+        "science"
+      ]
+    },
+    {
+      "question": "10",
+      "paddle_text": "tar orlaptop camputer",
+      "trocr_text": {
+        "base": "10) PURTABLE COMPULAR AND FOR WORK: LAPTOP COMPULAR",
+        "large": "19) POTTABLE COMPUTER USED FOR WORK: LAPTOP COMPUTER"
+      },
+      "easyocr": [
+        "19) Portable computer used (or work:",
+        "(aptop eempuler"
+      ]
+    },
+    {
+      "question": "20",
+      "paddle_text": "Matobackprpagation",
+      "trocr_text": {
+        "base": "20) METHOD USED TO TAIN NEURAL NETWORKS BACKPRAPARA GATION",
+        "large": "20) METHOD USED TO TRAIN NEARAL NETWORKS: BACKPROPAGATION"
+      },
+      "easyocr": [
+        "20) Method used",
+        "neural networks:",
+        "backpropagalion",
+        "ualn"
+      ]
+    }
+  ]
+}

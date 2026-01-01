@@ -1,0 +1,23 @@
+{
+  "run_name": "exam49_20251231-141702",
+  "image_name": "exam49.png",
+  "results": [
+    {
+      "line_id": 0,
+      "bbox": [
+        0,
+        76,
+        180,
+        137
+      ],
+      "paddle_text": "OCR EVALUATION)",
+      "trocr_text": {
+        "base": "OR EVALUATION)",
+        "large": "OR EVALUATION)"
+      },
+      "easyocr": [
+        "JCR EVALUATION)"
+      ]
+    }
+  ]
+}

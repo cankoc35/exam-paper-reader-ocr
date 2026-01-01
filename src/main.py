@@ -12,7 +12,7 @@ from models import predict_trocr_both, run_easyocr, get_paddle_items
 
 # predictions/ next to src/
 PRED_DIR = Path(__file__).resolve().parent.parent / "predictions"
-IMAGE_PATH = Path(__file__).resolve().parent.parent / "data" / "exam02.png"
+IMAGE_PATH = Path(__file__).resolve().parent.parent / "data" / "exam90.png"
 ANSWERS_PATH = (
     Path(__file__).resolve().parent.parent / "docs" / "ground-truth-labels" / "answers.json"
 )

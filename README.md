@@ -35,6 +35,24 @@ exam-paper-reader-ocr/
 
 Default image path is set in `src/main.py` (`IMAGE_PATH`). Outputs are written to `predictions/` and step images to `segment-data/`.
 
+## Batch Run 
+Run the pipeline for every image in `data/`:
+
+```
+python - <<'PY'
+from pathlib import Path
+import sys
+
+sys.path.insert(0, "src")
+import main
+
+data_dir = Path("data")
+for img in sorted(data_dir.glob("*.png")):
+    print(f"Processing {img.name}")
+    main.main(str(img))
+PY
+```
+
 ## Demo
 Run the end-to-end demo and collect artifacts in `demo/`:
 
@@ -44,7 +62,7 @@ python demo.py
 
 Optional: pass a specific image path:
 ```
-python demo.py data/exam02.png
+python demo.py data/exam80.png
 ```
 
 The demo folder will include segmentation step images and the run metrics JSON for quick presentation.
