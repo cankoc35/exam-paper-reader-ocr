@@ -1,0 +1,363 @@
+{
+  "run_name": "exam07_20260101-234408",
+  "image_name": "exam07.png",
+  "results": [
+    {
+      "question": "13",
+      "paddle_text": "Colme by iig bue nyellowgee",
+      "trocr_text": {
+        "base": "13) COLOR FORMED BY INICING LINE AND JELOW: GREAM",
+        "large": "13) Colorformed by mixing blue and yellow: Green"
+      },
+      "easyocr": [
+        "1",
+        "1",
+        "3",
+        "1",
+        "]",
+        "3",
+        "2",
+        "1"
+      ],
+      "followups": [
+        {
+          "paddle_text": "Section C — Short Phrase Answers",
+          "trocr_text": {
+            "base": "SECTION C - SHORT PHASE ANSWERS",
+            "large": "Section C - SHORT PHRASE ANSWERS"
+          },
+          "easyocr": [
+            "7",
+            "L",
+            "1",
+            "L"
+          ]
+        },
+        {
+          "paddle_text": "Section B — Single Word Answers",
+          "trocr_text": {
+            "base": "SECTION B - SINGLE WORLD ANSWERS",
+            "large": "Section B - Single Word Answers"
+          },
+          "easyocr": [
+            "",
+            "1",
+            "i",
+            "1"
+          ]
+        },
+        {
+          "paddle_text": "optical choracter recognition",
+          "trocr_text": {
+            "base": "OP FICAL CHARCLER REGNITION",
+            "large": "OPTICAL CHOROCERY RECOGRITION"
+          },
+          "easyocr": [
+            "L",
+            "4",
+            "1",
+            "8",
+            "J"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "15",
+      "paddle_text": "Animal with black nd white stripeehra",
+      "trocr_text": {
+        "base": "15) ANIMAL WITH BLACK AND WHITE STRIPES: REBITO",
+        "large": "15) ANIMAL with black and white Stripes: Zehra"
+      },
+      "easyocr": [
+        "4",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "]"
+      ]
+    },
+    {
+      "question": "17",
+      "paddle_text": "17) Technology for reading text from images:",
+      "trocr_text": {
+        "base": "17) TECHNOLOGY FOR FEADING TEXT FROM IMAGES:",
+        "large": "17) TECHNOLOGY FOR readING text from images:"
+      },
+      "easyocr": [
+        "K",
+        "8",
+        "L",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "question": "11",
+      "paddle_text": "11) Opposite of \"minimum\": moImum",
+      "trocr_text": {
+        "base": "11) OPPOSITE OF \"MINIMUM\":_MO X TWUM)",
+        "large": "11) Opposite of \"minimum\": MOXIMUM"
+      },
+      "easyocr": [
+        "1",
+        "J",
+        "J",
+        "3"
+      ]
+    },
+    {
+      "question": "8",
+      "paddle_text": "8) Field that combines data and statistics:",
+      "trocr_text": {
+        "base": "18) FIELD THAT COMBINES DATA AND STATISTICS:",
+        "large": "18) Field that combines data and statistics:"
+      },
+      "easyocr": [
+        "1",
+        "3",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "question": "1",
+      "paddle_text": "1) Plural of \"analysis\": andyses",
+      "trocr_text": {
+        "base": "14) PLURAL OF \"ANALYSIS\": ANALYSES",
+        "large": "14) PLUAL OF \"ANALYSIS\": AMOLYSES"
+      },
+      "easyocr": [
+        "J",
+        "1",
+        "3"
+      ]
+    },
+    {
+      "question": "20",
+      "paddle_text": "2 Method used to train neural networks:",
+      "trocr_text": {
+        "base": "20) METHOD USED TO TRAIN NEURAL NETWORK:",
+        "large": "20) Method used to train neural networks:"
+      },
+      "easyocr": [
+        "1",
+        "1",
+        "1",
+        "7",
+        "]",
+        "8"
+      ]
+    },
+    {
+      "question": "16",
+      "paddle_text": "Past tense of \"write: Wrote",
+      "trocr_text": {
+        "base": "16) PAST TENSE OF \"WRITE\": _N CODE",
+        "large": "16) PAST TENSE OF \"WRITE\": WTOLE"
+      },
+      "easyocr": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    {
+      "question": "19",
+      "paddle_text": "Portable computer used for work:",
+      "trocr_text": {
+        "base": "19) PORTABLE COMPUTER USED FOR WORK:",
+        "large": "19) Portable computer used for work:"
+      },
+      "easyocr": [
+        "1",
+        "2",
+        "3",
+        "7",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "question": "12",
+      "paddle_text": "Word meaning \"not allowed\":",
+      "trocr_text": {
+        "base": "12) WORLD MEANING \"NOT ALLOWED\":",
+        "large": "12) Word meaning \"not allowed\":"
+      },
+      "easyocr": [
+        "]",
+        "1",
+        "1",
+        "1"
+      ],
+      "followups": [
+        {
+          "paddle_text": "e",
+          "trocr_text": {
+            "base": ":",
+            "large": "19"
+          },
+          "easyocr": []
+        },
+        {
+          "paddle_text": "J0pndwr d0p0",
+          "trocr_text": {
+            "base": "LOPLOP COMPTER",
+            "large": "LOPTOP COMPUTER"
+          },
+          "easyocr": [
+            ":",
+            "8",
+            "8",
+            "2"
+          ]
+        },
+        {
+          "paddle_text": "dato science",
+          "trocr_text": {
+            "base": "DATE SCIENCE",
+            "large": "CLATO SCIENCE"
+          },
+          "easyocr": [
+            "1",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "paddle_text": "u070bedoudyq",
+          "trocr_text": {
+            "base": "LOCK PROP*GATION",
+            "large": "BACK PROPORTION"
+          },
+          "easyocr": [
+            "8",
+            "L",
+            "3"
+          ]
+        },
+        {
+          "paddle_text": "(Write 2-3 words exactly)",
+          "trocr_text": {
+            "base": "(WRITE 2-9 WORDS EXOCILY)",
+            "large": "(WRITE 2-3 WOTDS EXACTLY)"
+          },
+          "easyocr": [
+            "1",
+            "1",
+            "3",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "4",
+      "paddle_text": "4-18+11=-7",
+      "trocr_text": {
+        "base": "4)-18+11 = - 7",
+        "large": "4) -18+11 = - 7"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "1",
+      "paddle_text": "1) 30-10=20",
+      "trocr_text": {
+        "base": "1) 30 - 10 = 20",
+        "large": "1) 30 - 10 = 20"
+      },
+      "easyocr": [
+        "8"
+      ]
+    },
+    {
+      "question": "5",
+      "paddle_text": "5)2.4+3=54",
+      "trocr_text": {
+        "base": "5) 2.4 + 3 = 5/4",
+        "large": "5) 2.4 + 3 = 5, 4"
+      },
+      "easyocr": [
+        "1"
+      ]
+    },
+    {
+      "question": "6",
+      "paddle_text": "692-47=45",
+      "trocr_text": {
+        "base": "6) 92 - 47 = < 5",
+        "large": "6) 92 - 47 = 45"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "8",
+      "paddle_text": "150÷5=30",
+      "trocr_text": {
+        "base": "8) 150 + 5 = 30",
+        "large": "8) 150 + 5 = 30"
+      },
+      "easyocr": [
+        "5",
+        "8"
+      ]
+    },
+    {
+      "question": "10",
+      "paddle_text": "18=6×6(0t",
+      "trocr_text": {
+        "base": "10) 9 X 9 = 81",
+        "large": "10) 9 X 9 = 81"
+      },
+      "easyocr": [
+        "2"
+      ]
+    },
+    {
+      "question": "2",
+      "paddle_text": "27×8=56",
+      "trocr_text": {
+        "base": "2) 7 X 8 = 56",
+        "large": "2) 7 X 8 = 56"
+      },
+      "easyocr": [
+        "5"
+      ]
+    },
+    {
+      "question": "3",
+      "paddle_text": "396÷6=16",
+      "trocr_text": {
+        "base": "3) 96 + 6 = 16",
+        "large": "3) 96 + 6 = 16"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "9",
+      "paddle_text": "38-19=",
+      "trocr_text": {
+        "base": "9) 38 - 19 =",
+        "large": "9) 38 - 19 ="
+      },
+      "easyocr": []
+    },
+    {
+      "question": "7",
+      "paddle_text": "7) 3^}}=2",
+      "trocr_text": {
+        "base": "7)8= 27",
+        "large": "7) 33 - 2 7"
+      },
+      "easyocr": []
+    }
+  ]
+}

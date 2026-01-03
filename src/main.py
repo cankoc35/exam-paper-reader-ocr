@@ -179,19 +179,26 @@ def _get_text_candidates(line: dict) -> list[str]:
         candidates.extend(easyocr)
     return candidates
 
-def _extract_answer_from_text(text: str) -> str:
+def _extract_answer_variants(text: str) -> list[str]:
     if not text:
-        return ""
-    for separator in ("=", ":", ")"):
-        if separator in text:
-            candidate = text.split(separator)[-1].strip()
-            if candidate:
-                return candidate
-    return text.strip()
+        return []
+    match = re.match(r"^\s*\d{1,2}\s*[).]\s*(.+)$", text)
+    base = match.group(1).strip() if match else text.strip()
+    variants = [base] if base else []
+    for separator in ("=", ":"):
+        if separator in base:
+            rhs = base.split(separator)[-1].strip()
+            if rhs and rhs not in variants:
+                variants.append(rhs)
+    return variants
 
 def _normalize_answer_text(text: str) -> str:
-    cleaned = re.sub(r"[^0-9a-zA-Z.\-]+", "", text)
-    return cleaned.lower()
+    return text.lower()
+
+def _contains_match(expected: str, candidate: str) -> bool:
+    if not expected or not candidate:
+        return False
+    return expected in candidate
 
 def _levenshtein_distance(source: str, target: str) -> int:
     if source == target:
@@ -220,16 +227,19 @@ def _levenshtein_distance(source: str, target: str) -> int:
 def _candidate_answers_for_model(entry: dict, model: str) -> list[str]:
     candidates: list[str] = []
     followup = entry.get("followup") if isinstance(entry.get("followup"), dict) else None
+    followups = entry.get("followups") if isinstance(entry.get("followups"), list) else []
 
     def add_text(value: str) -> None:
-        answer = _extract_answer_from_text(value)
-        if answer:
+        for answer in _extract_answer_variants(value):
             candidates.append(answer)
 
     if model == "paddle":
         add_text(entry.get("paddle_text", ""))
         if followup:
             add_text(followup.get("paddle_text", ""))
+        for extra in followups:
+            if isinstance(extra, dict):
+                add_text(extra.get("paddle_text", ""))
         return candidates
 
     if model == "trocr_base":
@@ -244,6 +254,14 @@ def _candidate_answers_for_model(entry: dict, model: str) -> list[str]:
                 add_text(followup_text.get("base", ""))
             elif isinstance(followup_text, str):
                 add_text(followup_text)
+        for extra in followups:
+            if not isinstance(extra, dict):
+                continue
+            extra_text = extra.get("trocr_text", {})
+            if isinstance(extra_text, dict):
+                add_text(extra_text.get("base", ""))
+            elif isinstance(extra_text, str):
+                add_text(extra_text)
         return candidates
 
     if model == "trocr_large":
@@ -258,6 +276,14 @@ def _candidate_answers_for_model(entry: dict, model: str) -> list[str]:
                 add_text(followup_text.get("large", ""))
             elif isinstance(followup_text, str):
                 add_text(followup_text)
+        for extra in followups:
+            if not isinstance(extra, dict):
+                continue
+            extra_text = extra.get("trocr_text", {})
+            if isinstance(extra_text, dict):
+                add_text(extra_text.get("large", ""))
+            elif isinstance(extra_text, str):
+                add_text(extra_text)
         return candidates
 
     if model == "easyocr":
@@ -274,6 +300,15 @@ def _candidate_answers_for_model(entry: dict, model: str) -> list[str]:
                     add_text(item)
             else:
                 add_text(str(followup_easyocr))
+        for extra in followups:
+            if not isinstance(extra, dict):
+                continue
+            extra_easyocr = extra.get("easyocr", [])
+            if isinstance(extra_easyocr, list):
+                for item in extra_easyocr:
+                    add_text(item)
+            else:
+                add_text(str(extra_easyocr))
         return candidates
 
     return candidates
@@ -281,7 +316,9 @@ def _candidate_answers_for_model(entry: dict, model: str) -> list[str]:
 def save_cleaned_predictions(result_obj: dict, run_name: str) -> dict:
     cleaned_lines = []
     lines = sorted(result_obj.get("lines", []), key=lambda item: item.get("line_id", 0))
-    for index, line in enumerate(lines):
+    index = 0
+    while index < len(lines):
+        line = lines[index]
         candidates = _get_text_candidates(line)
 
         question_number = None
@@ -298,22 +335,33 @@ def save_cleaned_predictions(result_obj: dict, run_name: str) -> dict:
                 "easyocr": line.get("easyocr"),
             }
 
-            next_line = lines[index + 1] if index + 1 < len(lines) else None
-            if next_line:
+            followups = []
+            next_index = index + 1
+            while next_index < len(lines):
+                next_line = lines[next_index]
                 next_candidates = _get_text_candidates(next_line)
                 next_question = None
                 for text in next_candidates:
                     next_question = _extract_question_number(text)
                     if next_question:
                         break
-                if next_question is None:
-                    cleaned_entry["followup"] = {
-                        "paddle_text": next_line.get("paddle_text"),
-                        "trocr_text": next_line.get("trocr_text"),
-                        "easyocr": next_line.get("easyocr"),
-                    }
+                if next_question is not None:
+                    break
+                followups.append({
+                    "paddle_text": next_line.get("paddle_text"),
+                    "trocr_text": next_line.get("trocr_text"),
+                    "easyocr": next_line.get("easyocr"),
+                })
+                next_index += 1
+
+            if followups:
+                cleaned_entry["followups"] = followups
 
             cleaned_lines.append(cleaned_entry)
+            index = next_index
+            continue
+
+        index += 1
 
     cleaned_predictions = {
         "run_name": run_name,
@@ -355,7 +403,9 @@ def evaluate_predictions(cleaned_predictions: dict, answers_path: Path) -> dict:
             expected_norm = _normalize_answer_text(expected)
             candidate_norms = [_normalize_answer_text(text) for text in predicted_candidates if text]
 
-            if expected_norm and expected_norm in candidate_norms:
+            if expected_norm and any(
+                _contains_match(expected_norm, candidate) for candidate in candidate_norms
+            ):
                 correct += 1
 
             if candidate_norms:

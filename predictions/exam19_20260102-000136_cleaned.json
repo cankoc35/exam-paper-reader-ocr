@@ -1,0 +1,343 @@
+{
+  "run_name": "exam19_20260102-000136",
+  "image_name": "exam19.png",
+  "results": [
+    {
+      "question": "1",
+      "paddle_text": "130-10=2",
+      "trocr_text": {
+        "base": "1) 30-10= 20",
+        "large": "1) 30-10=20"
+      },
+      "easyocr": [
+        "20"
+      ]
+    },
+    {
+      "question": "2",
+      "paddle_text": "2)7×8=56",
+      "trocr_text": {
+        "base": "2)7X8= 56",
+        "large": "2) 7X8= 56"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "3",
+      "paddle_text": "396÷6=16",
+      "trocr_text": {
+        "base": "3) 96+6= 16",
+        "large": "3) 96+6= 16"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "4",
+      "paddle_text": "4-18+11=-",
+      "trocr_text": {
+        "base": "4)-18+11- - T",
+        "large": "4)-18+11 = - 1"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "5",
+      "paddle_text": "5)2.4+3=54",
+      "trocr_text": {
+        "base": "5) 24+3= 5+",
+        "large": "5) 24+3= 5.4"
+      },
+      "easyocr": [
+        "51 24+3=",
+        "54"
+      ]
+    },
+    {
+      "question": "6",
+      "paddle_text": "692-47=45",
+      "trocr_text": {
+        "base": "6)92-47-45",
+        "large": "6) 92 - 47 - 45"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "7",
+      "paddle_text": "7) 3^3}2$",
+      "trocr_text": {
+        "base": "7)3\" = 2\"",
+        "large": "7) 33 - 23"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "8",
+      "paddle_text": "8150÷5=30",
+      "trocr_text": {
+        "base": "8) 150+5= 10",
+        "large": "8) 150+5= 30"
+      },
+      "easyocr": [
+        "8) 180 +6 ="
+      ]
+    },
+    {
+      "question": "9",
+      "paddle_text": "938-19=19",
+      "trocr_text": {
+        "base": "9) 38-19= 19",
+        "large": "9) 38 - 19 = 19"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "10",
+      "paddle_text": "109×9=51",
+      "trocr_text": {
+        "base": "10)9X9= 31",
+        "large": "10)9X9- 51"
+      },
+      "easyocr": [
+        "10) 9 2 9"
+      ],
+      "followups": [
+        {
+          "paddle_text": "Section B — Single Word Answers",
+          "trocr_text": {
+            "base": "SECTION B - SINGLE WORLD ANSWERS",
+            "large": "SECTION B - SINGLE WORD ANSWERS"
+          },
+          "easyocr": [
+            "Section B",
+            "Single Word",
+            "Answers"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "11",
+      "paddle_text": "11) Opposite of \"minimum\":vimum",
+      "trocr_text": {
+        "base": "11) OPPOSITE OF \"MINIMUM\":_YMO-YLIMUM",
+        "large": "11) OPPOSITE OF \"MINIMUM\": MAXIMUM"
+      },
+      "easyocr": [
+        "Opposite"
+      ]
+    },
+    {
+      "question": "12",
+      "paddle_text": "12) Word meaning \"not allowed\":orbidden",
+      "trocr_text": {
+        "base": "12) WORLD MEANING \"NOT ALLOWED\": PORTS ADEN.",
+        "large": "12) WORD MEANING \"NOT ALLOWED\": PORK ADEN"
+      },
+      "easyocr": [
+        "12) Word",
+        "enT",
+        "Sna",
+        "Jden"
+      ]
+    },
+    {
+      "question": "13",
+      "paddle_text": "13) Color formed by mixing blue and yellow: green",
+      "trocr_text": {
+        "base": "13) COLOR FORMED BY MIXING BLUE AND YELLOW: GREEN",
+        "large": "13) COLOR FORMED BY MIXING BLUE AND YELLOW:"
+      },
+      "easyocr": [
+        "Colo",
+        "Formeo",
+        "Tndne",
+        "hellorda",
+        "Acen"
+      ],
+      "followups": [
+        {
+          "paddle_text": "2nalyses",
+          "trocr_text": {
+            "base": "ONALYSES",
+            "large": "ONALYSES"
+          },
+          "easyocr": [
+            "Ona"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "1",
+      "paddle_text": "1) Plural of \"analysis\":",
+      "trocr_text": {
+        "base": "14) PLURAL OF \"ANALYSIS\": _",
+        "large": "14) PLURAL OF \"ANALYSIS\":"
+      },
+      "easyocr": [
+        "14) Plural of"
+      ]
+    },
+    {
+      "question": "15",
+      "paddle_text": "15) Animal with black and white stripes: ebra",
+      "trocr_text": {
+        "base": "15) ANIMAL WITH BLACK AND WHITE STRIPES: PLEASE",
+        "large": "15) ANIMAL WITH BLACK AND WHITE STRIPES:"
+      },
+      "easyocr": [
+        "15) Animal wich black",
+        "OelC"
+      ],
+      "followups": [
+        {
+          "paddle_text": "wrote",
+          "trocr_text": {
+            "base": "WHOLE",
+            "large": "WHOLE"
+          },
+          "easyocr": [
+            "LLolc"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "16",
+      "paddle_text": ") Past tense of \"write\":",
+      "trocr_text": {
+        "base": "16) PAST TENSE OF \"WRITE\":",
+        "large": "16) PAST TENSE OF \"WRITE\":"
+      },
+      "easyocr": [
+        "16) Pa"
+      ],
+      "followups": [
+        {
+          "paddle_text": "Section C —Short Phrase Answers",
+          "trocr_text": {
+            "base": "SECTION C - SHORT PHRASE ANSWERS",
+            "large": "SECTION C - SHORT PHRASE ANSWERS"
+          },
+          "easyocr": [
+            "Section €C",
+            "Short Phrase",
+            "Answers"
+          ]
+        },
+        {
+          "paddle_text": "(Write 2-3 words exactly)",
+          "trocr_text": {
+            "base": "(WRITE 2-3 WORDS EXACTLY)",
+            "large": "(WRITE 2-3 WORDS EXACTLY)"
+          },
+          "easyocr": [
+            "wore"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "17",
+      "paddle_text": "17) Technology for reading text from images:",
+      "trocr_text": {
+        "base": "17) TECHNOLOGY FOR READING TEXT FROM INAGES:",
+        "large": "17) TECHNOLOGY FOR READING TEXT FROM IMAGES:"
+      },
+      "easyocr": [
+        "Technolog:",
+        "reading",
+        "Tomn"
+      ],
+      "followups": [
+        {
+          "paddle_text": "opticed character rego gnition",
+          "trocr_text": {
+            "base": "OPRICE / CHAROCER REG O ENION.",
+            "large": "OPTICER CHARACTER REG IGNITION"
+          },
+          "easyocr": [
+            "Opice",
+            "chercckc",
+            "Kntlon"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "18",
+      "paddle_text": "18) Field that combines data and statistics:",
+      "trocr_text": {
+        "base": "18) FIELD THAT COMBINES DATA AND STATISTICS:",
+        "large": "18) FIELD THAT COMBINES DATE AND STATISTICS:"
+      },
+      "easyocr": [
+        "18) Field tha"
+      ],
+      "followups": [
+        {
+          "paddle_text": "clole science",
+          "trocr_text": {
+            "base": "DATE SCENCE",
+            "large": "DATE SCENCE"
+          },
+          "easyocr": [
+            "046",
+            "Ecence"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "19",
+      "paddle_text": "19) Portable computer used for work:",
+      "trocr_text": {
+        "base": "19) PORTABLE COMPUTER USED FOR WORK:",
+        "large": "19) PORTABLE COMPUTER USED FOR WORK:"
+      },
+      "easyocr": [
+        "Portaole",
+        "comDL"
+      ],
+      "followups": [
+        {
+          "paddle_text": "Leptop comprter",
+          "trocr_text": {
+            "base": "LAPTAP COMP-LER",
+            "large": "LEPTOP COMPLER"
+          },
+          "easyocr": [
+            "pPt2p",
+            "Com "
+          ]
+        }
+      ]
+    },
+    {
+      "question": "2",
+      "paddle_text": "2) Method used to train neural networks:",
+      "trocr_text": {
+        "base": "20) METHOD USED TO TRAIN NEURAL NETWORK:",
+        "large": "20) METHOD USED TO TRAIN NEURAL NETWORKS:"
+      },
+      "easyocr": [
+        "20) Method used"
+      ],
+      "followups": [
+        {
+          "paddle_text": "backpropegction",
+          "trocr_text": {
+            "base": "BE CKPRAPEECTION",
+            "large": "BE EKPROPER TION"
+          },
+          "easyocr": [
+            "BC",
+            "872",
+            "3c4iof",
+            "elpi"
+          ]
+        }
+      ]
+    }
+  ]
+}

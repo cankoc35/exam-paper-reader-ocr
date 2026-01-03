@@ -1,0 +1,201 @@
+{
+  "run_name": "exam40_20260102-002957",
+  "image_name": "exam40.png",
+  "results": [
+    {
+      "question": "1",
+      "paddle_text": "8101-30",
+      "trocr_text": {
+        "base": "ITEM:1.30",
+        "large": "SIMPLE: 30"
+      },
+      "easyocr": [],
+      "followups": [
+        {
+          "paddle_text": "",
+          "trocr_text": {
+            "base": "*** 6",
+            "large": "***"
+          },
+          "easyocr": []
+        },
+        {
+          "paddle_text": "-81",
+          "trocr_text": {
+            "base": "-----81",
+            "large": "........"
+          },
+          "easyocr": []
+        },
+        {
+          "paddle_text": "Section B Single Word Answers",
+          "trocr_text": {
+            "base": "SECTION B - SINGLE WORLD ANSWER'S",
+            "large": "SECTION B - SINGLE WORD ANSWERS"
+          },
+          "easyocr": [
+            "Tn B"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "11",
+      "paddle_text": "11) Op",
+      "trocr_text": {
+        "base": "IT @9-4",
+        "large": "ITI CUPPERLY SHIPPING CARLOTS"
+      },
+      "easyocr": [],
+      "followups": [
+        {
+          "paddle_text": "1 W gA",
+          "trocr_text": {
+            "base": "CASHIER SUMM +66766",
+            "large": "12, WALI AMONG 'S COMPLY, ADDRITAN"
+          },
+          "easyocr": []
+        }
+      ]
+    },
+    {
+      "question": "12",
+      "paddle_text": "C",
+      "trocr_text": {
+        "base": "SR: CASH BRAND BY GOOD UP NOT FLAVA -GSTRA",
+        "large": "12) CASH SALAD BY WHERE MUST NOT BEAT -GSTAN."
+      },
+      "easyocr": [],
+      "followups": [
+        {
+          "paddle_text": "14 Pd  -",
+          "trocr_text": {
+            "base": "ITEMOR-",
+            "large": "10 FROM AT \"SALANCE\" - SEEAS"
+          },
+          "easyocr": []
+        },
+        {
+          "paddle_text": "131 Aal with Miack and whie agpes ghe",
+          "trocr_text": {
+            "base": "INCLUDED FOR MAKE NOT YOUR GOOD : 28608",
+            "large": "ITI AMOUNT WITH MARL AND USER WAVES."
+          },
+          "easyocr": []
+        },
+        {
+          "paddle_text": "it Pat w ",
+          "trocr_text": {
+            "base": "ITEMOUNT NAME",
+            "large": "IN PER COME OF RECEIPT AMOUNT"
+          },
+          "easyocr": []
+        },
+        {
+          "paddle_text": "Section C -Short Phrase Answers",
+          "trocr_text": {
+            "base": "SECTION C - SHORT PHASE ANSWERS",
+            "large": "SECTION C - SHORT PHRASE ANSWERS"
+          },
+          "easyocr": [
+            "Ctn",
+            "Shor",
+            "Fa",
+            "Amd"
+          ]
+        },
+        {
+          "paddle_text": "(ae23 ws m)",
+          "trocr_text": {
+            "base": "(MM)",
+            "large": "(WINE RAT CARD COMBAR"
+          },
+          "easyocr": []
+        }
+      ]
+    },
+    {
+      "question": "17",
+      "paddle_text": "17) Tenckanicagy lar sadiag lenst from isoages",
+      "trocr_text": {
+        "base": "(7) TAXEMBER LR MALING NOT HAS LENGTH",
+        "large": "17) TELLEAMLARY AE WADING HAD BAND HANGAS"
+      },
+      "easyocr": [],
+      "followups": [
+        {
+          "paddle_text": "optioal character reognstion",
+          "trocr_text": {
+            "base": "OPERAL CHARACTER ACCORDYAN",
+            "large": "OPRICAL CHAROETER RECORDITION"
+          },
+          "easyocr": [
+            "Chc",
+            "fOn E"
+          ]
+        },
+        {
+          "paddle_text": "15 Fhd that ch data and statiatics",
+          "trocr_text": {
+            "base": "IS) FIND USC COMPLIES ONCLUSIONS",
+            "large": "IS) FILLI THAT COMBERS DATE AND RETURNS"
+          },
+          "easyocr": []
+        },
+        {
+          "paddle_text": "data seience",
+          "trocr_text": {
+            "base": "CASH SALANCE",
+            "large": "CASH RETENCE"
+          },
+          "easyocr": [
+            "JL \" L"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "19",
+      "paddle_text": "19) Partalie cpater ed far work",
+      "trocr_text": {
+        "base": "(8) PURTABLE COMPANY AND BE MAKE",
+        "large": "19) PERTALLE COMPOTER SOLD ARE WORK"
+      },
+      "easyocr": [],
+      "followups": [
+        {
+          "paddle_text": "loptop computer",
+          "trocr_text": {
+            "base": "LAPTAP COMPUTER",
+            "large": "LOPTOP COMPUTER"
+          },
+          "easyocr": [
+            "Ioe Jee",
+            "ConDutc"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "20",
+      "paddle_text": "2 Method md to tran wrural srtwrk",
+      "trocr_text": {
+        "base": "20) MEMBER AND TO MAKE SPEND SERVICES",
+        "large": "20) METHOD AND TO UNUS INHAL SERVICES"
+      },
+      "easyocr": [],
+      "followups": [
+        {
+          "paddle_text": "bookpropogation",
+          "trocr_text": {
+            "base": "6-KAROPGOTAN",
+            "large": "BARAPROPOGRAPH"
+          },
+          "easyocr": [
+            "ecprot&"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "run_name": "exam24_20260102-000834",
+  "image_name": "exam24.png",
+  "models": {
+    "paddle": {
+      "cer": 0.6564885496183206,
+      "accuracy": 0.4,
+      "correct": 8,
+      "total": 20
+    },
+    "trocr_base": {
+      "cer": 0.5114503816793893,
+      "accuracy": 0.15,
+      "correct": 3,
+      "total": 20
+    },
+    "trocr_large": {
+      "cer": 0.6412213740458015,
+      "accuracy": 0.15,
+      "correct": 3,
+      "total": 20
+    },
+    "easyocr": {
+      "cer": 0.9389312977099237,
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20
+    }
+  }
+}

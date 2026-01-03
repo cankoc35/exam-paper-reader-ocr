@@ -1,21 +1,25 @@
 {
-  "generated_at": "20260101-120926",
+  "generated_at": "20260102-201850",
   "models": {
     "paddle": {
-      "accuracy": 0.7116666666666667,
-      "cer": 0.37925809273840766
+      "exact_match_accuracy": 0.66556,
+      "character_level_accuracy": 0.73834,
+      "character_error_rate (CER)": 0.26166
     },
     "trocr_base": {
-      "accuracy": 0.29444444444444445,
-      "cer": 0.6210848643919509
+      "exact_match_accuracy": 0.33111,
+      "character_level_accuracy": 0.5106,
+      "character_error_rate (CER)": 0.4894
     },
     "trocr_large": {
-      "accuracy": 0.515,
-      "cer": 0.3882195975503061
+      "exact_match_accuracy": 0.47944,
+      "character_level_accuracy": 0.65956,
+      "character_error_rate (CER)": 0.34044
     },
     "easyocr": {
-      "accuracy": 0.11888888888888889,
-      "cer": 0.6690813648293963
+      "exact_match_accuracy": 0.12889,
+      "character_level_accuracy": 0.26132,
+      "character_error_rate (CER)": 0.73868
     }
   }
 }

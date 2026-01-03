@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.28)  28 DEC 2025 23:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.28)  3 JAN 2026 16:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/cankoc/Desktop/main/masters/SEDS536-Image/exam-reader-ocr/exam-paper-reader-ocr/docs/report/main/SEDS536_Project_Report_Template.tex
-(/Users/cankoc/Desktop/main/masters/SEDS536-Image/exam-reader-ocr/exam-paper-reader-ocr/docs/report/main/SEDS536_Project_Report_Template.tex
+**/Users/cankoc/Desktop/masters/SEDS536-Image/exam-paper-reader-ocr/docs/report/main/SEDS536_Project_Report_Template.tex
+(/Users/cankoc/Desktop/masters/SEDS536-Image/exam-paper-reader-ocr/docs/report/main/SEDS536_Project_Report_Template.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
@@ -237,7 +237,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count296
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 36.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 38.
  (/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -252,20 +252,20 @@ LaTeX Warning: Unused global option(s):
 (./SEDS536_Project_Report_Template.aux)
 \openout1 = `SEDS536_Project_Report_Template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
  (/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count298
@@ -288,14 +288,14 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 36.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 36.
+LaTeX Info: Redefining \celsius on input line 38.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 38.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 36.
-Package gensymb Info: Using \Omega for \ohm on input line 36.
+LaTeX Info: Redefining \ohm on input line 38.
+Package gensymb Info: Using \Omega for \ohm on input line 38.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -305,9 +305,9 @@ LaTeX Warning: No \author given.
 <iyte_logo.png, id=1, 569.0058pt x 569.0058pt>
 File: iyte_logo.png Graphic file (type png)
 <use iyte_logo.png>
-Package pdftex.def Info: iyte_logo.png  used on input line 45.
+Package pdftex.def Info: iyte_logo.png  used on input line 47.
 (pdftex.def)             Requested size: 199.15501pt x 199.15501pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 50.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 52.
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -320,47 +320,73 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 ]
 
-Package natbib Warning: Citation `corke2011robotics' on page 2 undefined on input line 70.
+[2
+
+]
+
+[3]
+<figures/segmentation/raw_3.png, id=21, 910.40125pt x 1213.53375pt>
+File: figures/segmentation/raw_3.png Graphic file (type png)
+<use figures/segmentation/raw_3.png>
+Package pdftex.def Info: figures/segmentation/raw_3.png  used on input line 125.
+(pdftex.def)             Requested size: 84.55244pt x 112.69452pt.
+<figures/segmentation/shadow_3.png, id=22, 910.40125pt x 1213.53375pt>
+File: figures/segmentation/shadow_3.png Graphic file (type png)
+<use figures/segmentation/shadow_3.png>
+Package pdftex.def Info: figures/segmentation/shadow_3.png  used on input line 126.
+(pdftex.def)             Requested size: 84.55244pt x 112.69452pt.
+<figures/segmentation/mask_3.png, id=23, 910.40125pt x 1213.53375pt>
+File: figures/segmentation/mask_3.png Graphic file (type png)
+<use figures/segmentation/mask_3.png>
+Package pdftex.def Info: figures/segmentation/mask_3.png  used on input line 127.
+(pdftex.def)             Requested size: 84.55244pt x 112.69452pt.
+<figures/segmentation/contour_3.png, id=24, 910.40125pt x 1213.53375pt>
+File: figures/segmentation/contour_3.png Graphic file (type png)
+<use figures/segmentation/contour_3.png>
+Package pdftex.def Info: figures/segmentation/contour_3.png  used on input line 128.
+(pdftex.def)             Requested size: 84.55244pt x 112.69452pt.
+<figures/segmentation/crop_3.png, id=25, 910.40125pt x 1213.53375pt>
+File: figures/segmentation/crop_3.png Graphic file (type png)
+<use figures/segmentation/crop_3.png>
+Package pdftex.def Info: figures/segmentation/crop_3.png  used on input line 129.
+(pdftex.def)             Requested size: 84.55244pt x 112.69452pt.
+
+Overfull \hbox (14.74413pt too wide) in paragraph at lines 118--132
+ [][] 
+ []
 
 
-Package natbib Warning: Citation `mahonyKC12' on page 2 undefined on input line 71.
 
+[4 <./figures/segmentation/raw_3.png> <./figures/segmentation/shadow_3.png (PNG copy)> <./figures/segmentation/mask_3.png (PNG copy)> <./figures/segmentation/contour_3.png (PNG copy)> <./figures/segmentation/crop_3.png (PNG copy)>]
 
-Overfull \hbox (3.25082pt too wide) in paragraph at lines 80--81
+[5]
+Overfull \hbox (3.25082pt too wide) in paragraph at lines 199--200
 []\OT1/ptm/m/n/9 On the Gantt Chart that you pre-pared for project pro-posal re-port, show the steps that have been al-ready done/undone
  []
 
 (./SEDS536_Project_Report_Template.bbl
 
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
+[6])
 
-)
-
-Package natbib Warning: There were undefined citations.
-
-
-
-[2
-
-] (./SEDS536_Project_Report_Template.aux)
+[7] (./SEDS536_Project_Report_Template.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4848 strings out of 474662
- 80402 string characters out of 5751108
- 467999 words of memory out of 5000000
- 27827 multiletter control sequences out of 15000+600000
- 574892 words of font info for 65 fonts, out of 8000000 for 9000
+ 4925 strings out of 474662
+ 82659 string characters out of 5751108
+ 478491 words of memory out of 5000000
+ 27901 multiletter control sequences out of 15000+600000
+ 580282 words of font info for 73 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 67i,7n,77p,1541b,252s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,12n,77p,1508b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SEDS536_Project_Report_Template.pdf (3 pages, 208676 bytes).
+Output written on SEDS536_Project_Report_Template.pdf (8 pages, 4787785 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

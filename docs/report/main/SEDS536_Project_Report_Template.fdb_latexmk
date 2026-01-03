@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex SEDS536_Project_Report_Template"] 1766943836.00733 "SEDS536_Project_Report_Template.aux" "SEDS536_Project_Report_Template.bbl" "SEDS536_Project_Report_Template" 1766953144.5303 0
-  "./chicago.bst" 1766923963.44149 37416 2ae04276c51f11eda70770f4081293b7 ""
-  "./references.bib" 1766943835.81881 3708 ea44713c5309d2d7a8aeab9a2ae7d9de ""
-  "SEDS536_Project_Report_Template.aux" 1766953144.49136 665 7919f28302e1ffe0743a055ccc2c55be "pdflatex"
+["bibtex SEDS536_Project_Report_Template"] 1767447722.44168 "SEDS536_Project_Report_Template.aux" "SEDS536_Project_Report_Template.bbl" "SEDS536_Project_Report_Template" 1767447738.68605 0
+  "./chicago.bst" 1767107329.59657 37416 2ae04276c51f11eda70770f4081293b7 ""
+  "./references.bib" 1767107329.59741 3708 ea44713c5309d2d7a8aeab9a2ae7d9de ""
+  "SEDS536_Project_Report_Template.aux" 1767447738.64625 3196 3d6cbe05cb27ee91067bd8d9b16e7923 "pdflatex"
   (generated)
   "SEDS536_Project_Report_Template.bbl"
   "SEDS536_Project_Report_Template.blg"
   (rewritten before read)
-["pdflatex"] 1766953144.10864 "/Users/cankoc/Desktop/main/masters/SEDS536-Image/exam-reader-ocr/exam-paper-reader-ocr/docs/report/main/SEDS536_Project_Report_Template.tex" "SEDS536_Project_Report_Template.pdf" "SEDS536_Project_Report_Template" 1766953144.53047 0
-  "/Users/cankoc/Desktop/main/masters/SEDS536-Image/exam-reader-ocr/exam-paper-reader-ocr/docs/report/main/SEDS536_Project_Report_Template.tex" 1766953143.90991 3739 98a1847496d65e35e79557c57e844226 ""
+["pdflatex"] 1767447738.04943 "/Users/cankoc/Desktop/masters/SEDS536-Image/exam-paper-reader-ocr/docs/report/main/SEDS536_Project_Report_Template.tex" "SEDS536_Project_Report_Template.pdf" "SEDS536_Project_Report_Template" 1767447738.68617 0
+  "/Users/cankoc/Desktop/masters/SEDS536-Image/exam-paper-reader-ocr/docs/report/main/SEDS536_Project_Report_Template.tex" 1767447737.87761 25457 4a2707b9e249b4b88e97f717bd9cd08a ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1136768653 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -77,10 +77,15 @@
   "/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1766942211 134042 320ed9ffbf60c54014e0ba9d6df7f1cc ""
   "/usr/local/texlive/2025basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1766925124 2663827 ac4c54294f4a1db16052331c53ef1f04 ""
   "/usr/local/texlive/2025basic/texmf.cnf" 1741448314 628 81d1ada0f601fb1ffa62f1323192d946 ""
-  "SEDS536_Project_Report_Template.aux" 1766953144.49136 665 7919f28302e1ffe0743a055ccc2c55be "pdflatex"
-  "SEDS536_Project_Report_Template.bbl" 1766943836.02154 49 0eba253fc001332e731e8aba3f23127b "bibtex SEDS536_Project_Report_Template"
-  "SEDS536_Project_Report_Template.tex" 1766953143.90991 3739 98a1847496d65e35e79557c57e844226 ""
-  "iyte_logo.png" 1766923960.84694 270178 e9bc5b06b633170405b0ef3b5567c9ad ""
+  "SEDS536_Project_Report_Template.aux" 1767447738.64625 3196 3d6cbe05cb27ee91067bd8d9b16e7923 "pdflatex"
+  "SEDS536_Project_Report_Template.bbl" 1767447722.45655 3222 d45f9aa6f50ccbda7952315323439bc0 "bibtex SEDS536_Project_Report_Template"
+  "SEDS536_Project_Report_Template.tex" 1767447737.87761 25457 4a2707b9e249b4b88e97f717bd9cd08a ""
+  "figures/segmentation/contour_3.png" 1767390877.64 42791 1327abaae43b881c6751e1a3a5e554b2 ""
+  "figures/segmentation/crop_3.png" 1767389944.13626 2064590 0c71d02d610b001de5f64306a9be8e3c ""
+  "figures/segmentation/mask_3.png" 1767389944.11673 88829 ee7e0313217ddceb315e533896a94057 ""
+  "figures/segmentation/raw_3.png" 1767389949.59329 1570687 a0bd117162ec5fc2e7e98d9fa1d4532b ""
+  "figures/segmentation/shadow_3.png" 1767389944.09938 547034 5326b3d7a83282d43f4a4c68dd155b13 ""
+  "iyte_logo.png" 1767107329.5973 270178 e9bc5b06b633170405b0ef3b5567c9ad ""
   (generated)
   "SEDS536_Project_Report_Template.aux"
   "SEDS536_Project_Report_Template.log"

@@ -8,6 +8,14 @@ This project segments a raw exam photo to isolate the paper, runs OCR models on 
 3) Crop each region and run PaddleOCR + EasyOCR + TrOCR (base/large) for recognition.
 4) Save raw + cleaned predictions and compute CER/accuracy per model.
 
+## Methodology
+1) **Page segmentation**: Normalize illumination, build mask/edge cues, and extract the page contour to crop a clean paper view.
+2) **Text region detection**: Use PaddleOCR detection to locate line-level text polygons on the cropped page.
+3) **Region normalization**: Warp each polygon to a rectangular crop so OCR models see upright text.
+4) **Multi-model OCR**: Run PaddleOCR, EasyOCR, and TrOCR (base/large) on each crop for complementary predictions.
+5) **Answer structuring**: Detect question numbers (1–20) per line, attach follow-up lines for multi-line answers.
+6) **Evaluation**: Compare model answers with ground-truth labels to compute per-model accuracy and CER.
+
 ## Project Structure
 ```
 exam-paper-reader-ocr/

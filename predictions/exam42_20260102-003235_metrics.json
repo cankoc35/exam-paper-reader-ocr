@@ -1,0 +1,30 @@
+{
+  "run_name": "exam42_20260102-003235",
+  "image_name": "exam42.png",
+  "models": {
+    "paddle": {
+      "cer": 0.2595419847328244,
+      "accuracy": 0.6,
+      "correct": 12,
+      "total": 20
+    },
+    "trocr_base": {
+      "cer": 0.4198473282442748,
+      "accuracy": 0.25,
+      "correct": 5,
+      "total": 20
+    },
+    "trocr_large": {
+      "cer": 0.31297709923664124,
+      "accuracy": 0.45,
+      "correct": 9,
+      "total": 20
+    },
+    "easyocr": {
+      "cer": 0.8244274809160306,
+      "accuracy": 0.1,
+      "correct": 2,
+      "total": 20
+    }
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "run_name": "exam78_20260102-011850",
+  "image_name": "exam78.png",
+  "results": [
+    {
+      "question": "1",
+      "paddle_text": "1) 30-10=20",
+      "trocr_text": {
+        "base": "1) 30-10= 2 0",
+        "large": "1) 30 - 10 = 20"
+      },
+      "easyocr": [
+        "1) 30"
+      ]
+    },
+    {
+      "question": "2",
+      "paddle_text": "2)7×8=56",
+      "trocr_text": {
+        "base": "2)7X8= 5%",
+        "large": "2) 7X8= 56"
+      },
+      "easyocr": [
+        "2) 7 * 8"
+      ]
+    },
+    {
+      "question": "3",
+      "paddle_text": "3)96÷6=16",
+      "trocr_text": {
+        "base": "3) 96+6= 1<",
+        "large": "3) 96+6="
+      },
+      "easyocr": [
+        "3) 96 +"
+      ]
+    },
+    {
+      "question": "4",
+      "paddle_text": "4)-18+11=7",
+      "trocr_text": {
+        "base": "4)-18+11= - +",
+        "large": "4)-18+11 = - +"
+      },
+      "easyocr": [
+        "18 + 11 ="
+      ]
+    },
+    {
+      "question": "5",
+      "paddle_text": "5)2.4+3=5.U",
+      "trocr_text": {
+        "base": "5) 24+3= 5.U",
+        "large": "5) 2.4+ 3 = 5.U"
+      },
+      "easyocr": [
+        "5) 24+3"
+      ]
+    },
+    {
+      "question": "6",
+      "paddle_text": "6)92-47=∠5",
+      "trocr_text": {
+        "base": "6) 92 - 47 = 7/5",
+        "large": "6) 92 - 47 = 45"
+      },
+      "easyocr": [
+        "6) 92",
+        "47 ="
+      ]
+    },
+    {
+      "question": "7",
+      "paddle_text": "$7) {3}=27",
+      "trocr_text": {
+        "base": "7)33 - 2 7",
+        "large": "7)33 - 24"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "8",
+      "paddle_text": "8)150÷5=30",
+      "trocr_text": {
+        "base": "8) 150 + 5 = 3 0",
+        "large": "8) 150 + 5 = 30"
+      },
+      "easyocr": [
+        "8) 150 + 5 =",
+        "3 0"
+      ]
+    },
+    {
+      "question": "9",
+      "paddle_text": "938-19=19",
+      "trocr_text": {
+        "base": "9) 38 - 19 = 19",
+        "large": "9) 38 - 19 = 19"
+      },
+      "easyocr": [
+        "9) 38"
+      ]
+    },
+    {
+      "question": "10",
+      "paddle_text": "10)9×9=81",
+      "trocr_text": {
+        "base": "10) 9 X 9= 8 L",
+        "large": "10) 9 X 9 = 8\\"
+      },
+      "easyocr": [
+        "10) 9 * 9 ="
+      ],
+      "followups": [
+        {
+          "paddle_text": "Section B — Single Word Answers",
+          "trocr_text": {
+            "base": "SECTION B - SINGLE WORLD ANSWERS",
+            "large": "SECTION B - SINGLE WORD ANSWERS"
+          },
+          "easyocr": [
+            "Section B",
+            "Single",
+            "Word",
+            "Answers"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "11",
+      "paddle_text": "11) Opposite of \"minimum\": Ma(",
+      "trocr_text": {
+        "base": "11) OPPOSITE OF \"MINIM\": _MO X [AMJAN",
+        "large": "11) OPPOSITE OF \"MINIMUM\": MAXIMJM"
+      },
+      "easyocr": [
+        "11) Opposite of \"minimum",
+        "MO",
+        "MJ"
+      ]
+    },
+    {
+      "question": "1",
+      "paddle_text": "1) Word meaning \"not allowed\": forbdde",
+      "trocr_text": {
+        "base": "12) WORLD MEENING \"NOT ALLOWED\":_FORBARDEN",
+        "large": "12) WORD MEANING \"NOT ALLOWED\": FORBADEN"
+      },
+      "easyocr": [
+        "12)",
+        "Word meaning",
+        "not",
+        "allowed\"",
+        "fecb"
+      ]
+    },
+    {
+      "question": "1",
+      "paddle_text": "1) Color formed by mixing blue and yellow:r",
+      "trocr_text": {
+        "base": "13) COLOR FORMED BY MIXING BLUE AND YELLOW: PLEASE",
+        "large": "13) COLOR FORMED BY MIXING BLUE AND YELLOW:"
+      },
+      "easyocr": [
+        "13)",
+        "Color formed by",
+        "blue and yellow:",
+        "mixing"
+      ]
+    },
+    {
+      "question": "1",
+      "paddle_text": "1) Plural of \"analysis\": analy ses",
+      "trocr_text": {
+        "base": "14) PLURAL OF \"ANALYSIS\":_ONOKLY SE S",
+        "large": "14) PLURAL OF \"ANALYSIS\": _DAAL SES"
+      },
+      "easyocr": [
+        "14) Plural of",
+        "analysis\"",
+        "Se"
+      ]
+    },
+    {
+      "question": "15",
+      "paddle_text": "15 Animal with black and white stripes: ebra",
+      "trocr_text": {
+        "base": "15) ANIMAL WITH BLACK AND WHITE STRIPES: SELOR O.",
+        "large": "15) ANIMAL WITH BLACK AND WHITE STRIPES: 2 EBRA"
+      },
+      "easyocr": [
+        "15) Animal with black and white stripes:",
+        "A-ebco"
+      ]
+    },
+    {
+      "question": "16",
+      "paddle_text": "16) Past tense of \"write\": Wrt",
+      "trocr_text": {
+        "base": "16) PAST TENSE OF \"WRITE\": _U NO KC",
+        "large": "16) PAST TENSE OF \"WRITE\": _WAD IC"
+      },
+      "easyocr": [
+        "16) Past tense of",
+        "wrte"
+      ],
+      "followups": [
+        {
+          "paddle_text": "Section C - Short Phrase Answers",
+          "trocr_text": {
+            "base": "SECTION C - SHORT PHASE ANSWERS",
+            "large": "SECTION C - SHORT PHRASE ANSWERS"
+          },
+          "easyocr": [
+            "Section",
+            "Short Phrase",
+            "Answers"
+          ]
+        },
+        {
+          "paddle_text": "(Write 2-3 words exactly)",
+          "trocr_text": {
+            "base": "(WRITE 2-3 WORDS EXACTLY)",
+            "large": "(WRITE 2-3 WORKS EXACTLY)"
+          },
+          "easyocr": [
+            "'Write 23 words eractly)"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "17",
+      "paddle_text": "17) Technology for reading text from images:",
+      "trocr_text": {
+        "base": "17) TECHNOLOGY FOR READING TEXT FROM IMAGES:",
+        "large": "17) TECHNOLOGY FOR READING TEXT FROM IMAGES:"
+      },
+      "easyocr": [
+        "17) Technology for reading text from images="
+      ],
+      "followups": [
+        {
+          "paddle_text": "optical choracte recognition",
+          "trocr_text": {
+            "base": "OFFICAL CHARACLE RECONITION",
+            "large": "APTICAL CHARACHE RECOMPTION"
+          },
+          "easyocr": [
+            "Kca (",
+            "her",
+            "Lo",
+            "Ce C",
+            "Os^ ;",
+            "1io",
+            "ac"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "18",
+      "paddle_text": "18) Field that combines data and statistics:",
+      "trocr_text": {
+        "base": "18) FIELD THAT COMBINES DATE AND STATISTICS:",
+        "large": "18) FIELD THAT COMBINES DATE AND STATISTICS:"
+      },
+      "easyocr": [
+        "18) Field that combines data and statistics:"
+      ],
+      "followups": [
+        {
+          "paddle_text": "data science",
+          "trocr_text": {
+            "base": "JAYAN SCIENCE",
+            "large": "JATE SCIENCE"
+          },
+          "easyocr": [
+            "Jo to",
+            "sciece"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "19",
+      "paddle_text": "19) Portable computer used for work:",
+      "trocr_text": {
+        "base": "19) PORTABLE COMPUTER USED FOR WORK:",
+        "large": "19) PORTABLE COMPUTER USED FOR WORK:"
+      },
+      "easyocr": [
+        "19)",
+        "Portable computer used for work:"
+      ],
+      "followups": [
+        {
+          "paddle_text": "laptop computo",
+          "trocr_text": {
+            "base": "LAPTOP COMPUTE",
+            "large": "LAPTOP COMPUTS"
+          },
+          "easyocr": [
+            "0? |o",
+            "D~ApJ |c"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "20",
+      "paddle_text": "2 Method used to train neural networks:",
+      "trocr_text": {
+        "base": "20) METHOD USED TO TRAIN NEURAL NETWORK:",
+        "large": "20) METHOD USED TO TRAIN NEURAL NETWORKS:"
+      },
+      "easyocr": [
+        "20) Method used to train neural networks:"
+      ],
+      "followups": [
+        {
+          "paddle_text": "baclprepagation",
+          "trocr_text": {
+            "base": "BACLPROPAGATRAAN",
+            "large": "BACKPROPAGATION"
+          },
+          "easyocr": [
+            "bec",
+            "Pconogo 4 0"
+          ]
+        }
+      ]
+    }
+  ]
+}

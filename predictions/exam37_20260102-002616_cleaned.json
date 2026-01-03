@@ -1,0 +1,252 @@
+{
+  "run_name": "exam37_20260102-002616",
+  "image_name": "exam37.png",
+  "results": [
+    {
+      "question": "1",
+      "paddle_text": "1)3-10=20",
+      "trocr_text": {
+        "base": "1)8-8- 20",
+        "large": "9/28-18-20"
+      },
+      "easyocr": [],
+      "followups": [
+        {
+          "paddle_text": "27×8=56",
+          "trocr_text": {
+            "base": "27-5- 56",
+            "large": "27-8- 56"
+          },
+          "easyocr": []
+        }
+      ]
+    },
+    {
+      "question": "2",
+      "paddle_text": "2)26=6=16",
+      "trocr_text": {
+        "base": "***6- 16",
+        "large": "3)2546- 16"
+      },
+      "easyocr": [],
+      "followups": [
+        {
+          "paddle_text": "6-23-11=-7",
+          "trocr_text": {
+            "base": "6-8-11- - 7",
+            "large": "6-8-B- - 7"
+          },
+          "easyocr": []
+        }
+      ]
+    },
+    {
+      "question": "5",
+      "paddle_text": "5)24=3=5.4",
+      "trocr_text": {
+        "base": "924-3- 5.4",
+        "large": "8/24/18- 5.4"
+      },
+      "easyocr": [],
+      "followups": [
+        {
+          "paddle_text": "60-=45",
+          "trocr_text": {
+            "base": "99-6-45",
+            "large": "@6-6-45"
+          },
+          "easyocr": [
+            "n",
+            "8 -",
+            "45"
+          ]
+        },
+        {
+          "paddle_text": "78=23",
+          "trocr_text": {
+            "base": "79- 23",
+            "large": "7#- 23"
+          },
+          "easyocr": []
+        }
+      ]
+    },
+    {
+      "question": "8",
+      "paddle_text": "8)150+5=30",
+      "trocr_text": {
+        "base": "@19-S- 30",
+        "large": "8) 1845- 30"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "9",
+      "paddle_text": "9)38-1=17",
+      "trocr_text": {
+        "base": "938-B-11",
+        "large": "9)38-19- 17"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "20",
+      "paddle_text": ")9×3=81",
+      "trocr_text": {
+        "base": "***8- 81",
+        "large": "20) 929- 81"
+      },
+      "easyocr": [],
+      "followups": [
+        {
+          "paddle_text": "Section B -Single Word Answers",
+          "trocr_text": {
+            "base": "SECTION B - SINGLE WORLD ANSWERS",
+            "large": "SECTION B - SINGLE WORD ANSWERS"
+          },
+          "easyocr": [
+            "3ectoa B",
+            "Smngle",
+            "Mord",
+            "Ansuer"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "13",
+      "paddle_text": "13) Oppsice e mini: Maximum",
+      "trocr_text": {
+        "base": "IN) OPPARANE OF \"ALLBACK\", _MAXION",
+        "large": "13) OPPORTED OF \"MILASONS\": MAXIMUM"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "12",
+      "paddle_text": "12 Wnd wg \" ao:frbiden",
+      "trocr_text": {
+        "base": "12) WARD MEMBER YOU COMER: FOR BIDDEN",
+        "large": "12) WORD MEMBER \"202 SECRET\": PER BID DEND"
+      },
+      "easyocr": [
+        "Rec",
+        "Bddea_"
+      ]
+    },
+    {
+      "question": "13",
+      "paddle_text": "13) Co ",
+      "trocr_text": {
+        "base": "18) COLOR EARMOND BY INCLUDING US OND YELOW. 9CEEA",
+        "large": "13) COLOR SARAND BY SHOPING BAND AND VALANCE. OF EEN"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "10",
+      "paddle_text": "24) Phral d \"amaiyss: ana lyses",
+      "trocr_text": {
+        "base": "10) PURNED OF MARYIN'S_EMALLY SES",
+        "large": "14) PLEASE OF \"ASKLYAS\", _ ANALYSES"
+      },
+      "easyocr": [
+        "202",
+        "K2s"
+      ]
+    },
+    {
+      "question": "5",
+      "paddle_text": "5) h b eh",
+      "trocr_text": {
+        "base": "18) ALLAND WITH BACK AND WITH RECE ,DEBRA,",
+        "large": "15) ADJUST WITH BLACK AND WHITE ARGER, JOHORA"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "16",
+      "paddle_text": "16) Pe  w: Wrote",
+      "trocr_text": {
+        "base": "16) PASS SAME OF ENTER: W/CODE.",
+        "large": "16) PACE RANGE OF \"WATER: WRITE"
+      },
+      "easyocr": [
+        "JLon?"
+      ],
+      "followups": [
+        {
+          "paddle_text": "Section C -Short Phrase Answers",
+          "trocr_text": {
+            "base": "SECTION C - SHORT PHRASE ANSWERS",
+            "large": "SECTION C - SHORT PHRASE ANSWERS"
+          },
+          "easyocr": [
+            "Section",
+            "Short Phrase",
+            "Answers"
+          ]
+        },
+        {
+          "paddle_text": "(Write 2-3 words exactly)",
+          "trocr_text": {
+            "base": "(WRICE 8-3 GOODS EXCITY)",
+            "large": "(WRITE E-S SPORTS EXACTLY)"
+          },
+          "easyocr": []
+        }
+      ]
+    },
+    {
+      "question": "17",
+      "paddle_text": " T g  optical character re cognitian",
+      "trocr_text": {
+        "base": "IN THEBOOK IN MAHRY FOR TAX INVOICE APPLIC CHARASTER FACEGRIAN",
+        "large": "17) TELLSING AND REGISTER FROM INCLUS OF OFFICAL CHARGETER RECEGRITION"
+      },
+      "easyocr": [
+        "I7) Tnati % fendiie tr #un [fmE",
+        "oplice",
+        "choreele re",
+        "cegnilion"
+      ]
+    },
+    {
+      "question": "18",
+      "paddle_text": "18) Fleld that comitine dats and statiti scitidce",
+      "trocr_text": {
+        "base": "18) FROM MUST COMPLIES DATE AND STATILES, DATE RECEIPE",
+        "large": "18) FROM YOUR COMBINING DATE AND SUBJECTION DATEA SCIENCE"
+      },
+      "easyocr": [
+        "16,n",
+        "dl Ec",
+        "dala science"
+      ]
+    },
+    {
+      "question": "19",
+      "paddle_text": "19)Pumnatleconpate sed caor ter",
+      "trocr_text": {
+        "base": "18) REGULAR COMPANY AND FOR YOUR LAPTOP COMPURNS",
+        "large": "19) PERTELLS COMPARAN WAND FOR WORK: IAPTOP COMPUTER"
+      },
+      "easyocr": [
+        "19) Purabl UEVEn \"d Jo #uL",
+        "(aetop campuler"
+      ]
+    },
+    {
+      "question": "20",
+      "paddle_text": "201) Metod sd to rai netura netation",
+      "trocr_text": {
+        "base": "20) METHOD AND TO ENTER MANUAL LAMORIA BACELEROPRA GATION",
+        "large": "20) METHOD AND 10 SALES SHARELL RETURNS, BACK/PROPANGATION"
+      },
+      "easyocr": [
+        "W) Mtuud 14t0 Uam [AT. 057utks",
+        "bockprepagali01"
+      ]
+    }
+  ]
+}

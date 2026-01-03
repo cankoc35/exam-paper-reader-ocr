@@ -1,3 +1,43 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citeauthoryear{Ghadekar, Khanvilkar, Kharat, Joshi, Kulkarni, and Kulkarni}{Ghadekar et~al.}{2025}]{Ghadekar2025AutomatingGradingHandwritten}
+Ghadekar, P., O.~Khanvilkar, J.~Kharat, K.~Joshi, T.~Kulkarni, and Y.~Kulkarni (2025).
+\newblock Automating the grading of handwritten examinations through the integration of optical character recognition and machine learning algorithms.
+\newblock {\em Journal of Integrated Science and Technology\/}~{\em 13\/}(6), 1128.
+\newblock Article published 11-Apr-2025.
+
+\bibitem[\protect\citeauthoryear{Lekshmy, Kayalvili, Velmurugan, Teja~Sree, Kumari, and Karthik~Kumar}{Lekshmy et~al.}{2024}]{lekshmy2024ocr_exam}
+Lekshmy, P.~L., S.~Kayalvili, S.~Velmurugan, B.~Teja~Sree, I.~Kumari, and P.~Karthik~Kumar (2024).
+\newblock Optical character recognition (ocr) in handwritten characters using convolutional neural networks to assist in exam reader system.
+\newblock In {\em 2024 2nd International Conference on Advancement in Computation \& Computer Technologies (InCACCT)}, pp.\  623--627. IEEE.
+
+\bibitem[\protect\citeauthoryear{Li, Lv, Chen, Cui, Lu, Florencio, Zhang, Li, and Wei}{Li et~al.}{2022}]{li2022trocr}
+Li, M., T.~Lv, J.~Chen, L.~Cui, Y.~Lu, D.~Florencio, C.~Zhang, Z.~Li, and F.~Wei (2022).
+\newblock Trocr: Transformer-based optical character recognition with pre-trained models.
+\newblock {\em arXiv preprint arXiv:2109.10282\/}.
+
+\bibitem[\protect\citeauthoryear{Liu, Chatain, Kobel-Keller, Kortemeyer, Willwacher, and Sachan}{Liu et~al.}{2024}]{liu2024aiassisted}
+Liu, T., J.~Chatain, L.~Kobel-Keller, G.~Kortemeyer, T.~Willwacher, and M.~Sachan (2024).
+\newblock Ai-assisted automated short answer grading of handwritten university level mathematics exams.
+
+\bibitem[\protect\citeauthoryear{Mulla, Karjal, Sulthana, Abbas, and Raza}{Mulla et~al.}{2025}]{mulla2025aipowered}
+Mulla, A., A.~Z. Karjal, H.~Sulthana, M.~S.~S. Abbas, and M.~H. Raza (2025, May).
+\newblock Ai-powered exam evaluation system for educational institutions.
+\newblock {\em International Journal of Multidisciplinary Research in Science, Engineering, Technology and Management\/}~{\em 12\/}(5), 1587--1589.
+
+\bibitem[\protect\citeauthoryear{Pangestu, Kho, Suryani, and Andika}{Pangestu et~al.}{2023}]{pangestu2023exam}
+Pangestu, J.~S., K.~Kho, D.~Suryani, and L.~Andika (2023).
+\newblock Implementation of handwriting recognition and answer evaluation with recurrent neural network.
+\newblock {\em Procedia Computer Science\/}~{\em 227}, 779--784.
+
+\bibitem[\protect\citeauthoryear{Pawar, Chavan, Pol, Shinde, and Thorat}{Pawar et~al.}{2025}]{pawar2025automating}
+Pawar, A.~H., V.~Chavan, V.~Pol, H.~Shinde, and S.~Thorat (2025).
+\newblock Automating handwritten answer evaluation: A deep learning and ocr integrated approach.
+\newblock {\em International Research Journal of Education and Technology\/}~{\em 8\/}(4), 1120--1123.
+
+\bibitem[\protect\citeauthoryear{Shi, Zhu, Zhang, Feng, and Wang}{Shi et~al.}{2025}]{shi2025multimodal}
+Shi, H., Z.~Zhu, C.~Zhang, X.~Feng, and Y.~Wang (2025).
+\newblock Multimodal handwritten exam text recognition based on deep learning.
+\newblock {\em Applied Sciences\/}~{\em 15\/}(16), 8881.
+
 \end{thebibliography}

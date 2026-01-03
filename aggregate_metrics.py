@@ -67,14 +67,20 @@ def aggregate_metrics() -> dict:
         accuracy = (stats["correct"] / total) if total else 0.0
         if stats["char_total"]:
             cer = stats["char_edits"] / stats["char_total"]
+            cer_method = "exact"
         elif stats["cer_weighted_total"]:
             cer = stats["cer_weighted_sum"] / stats["cer_weighted_total"]
+            cer_method = "weighted_by_total"
         else:
             cer = 0.0
+            cer_method = "unavailable"
+
+        char_accuracy = (1.0 - cer) if cer_method != "unavailable" else 0.0
 
         summary_models[model_name] = {
-            "accuracy": accuracy,
-            "cer": cer,
+            "exact_match_accuracy": round(accuracy,5),
+            "character_level_accuracy": round(char_accuracy,5),
+            "character_error_rate (CER)": round(cer,5)
         }
 
     return {
