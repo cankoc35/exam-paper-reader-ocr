@@ -1,4 +1,5 @@
 import datetime
+import json
 import os
 import shutil
 import sys
@@ -29,6 +30,61 @@ def _copy_segment_steps(image_stem: str, output_dir: Path) -> None:
     for image_path in segment_dir.iterdir():
         if image_path.is_file() and image_path.name.startswith(f"{image_stem}-"):
             shutil.copy2(image_path, output_dir / image_path.name)
+
+
+MODEL_ORDER = ("paddle", "trocr_base", "trocr_large", "easyocr")
+
+
+def _unique_nonempty(values: list[str]) -> list[str]:
+    seen = set()
+    cleaned: list[str] = []
+    for value in values:
+        if not value:
+            continue
+        if value in seen:
+            continue
+        seen.add(value)
+        cleaned.append(value)
+    return cleaned
+
+
+def _collect_answers_by_question(cleaned_predictions: dict) -> dict[str, dict[str, list[str]]]:
+    questions = {
+        str(number): {model: [] for model in MODEL_ORDER}
+        for number in range(1, 21)
+    }
+
+    for entry in cleaned_predictions.get("results", []):
+        question = entry.get("question")
+        if not question or question not in questions:
+            continue
+        for model in MODEL_ORDER:
+            candidates = pipeline._candidate_answers_for_model(entry, model)
+            candidates = [
+                candidate.strip()
+                for candidate in candidates
+                if isinstance(candidate, str) and candidate.strip()
+            ]
+            questions[question][model] = _unique_nonempty(candidates)
+
+    return questions
+
+
+def _save_answers_by_model(
+    cleaned_predictions: dict,
+    output_dir: Path,
+    run_name: str,
+) -> Path:
+    payload = {
+        "run_name": cleaned_predictions.get("run_name"),
+        "image_name": cleaned_predictions.get("image_name"),
+        "questions": _collect_answers_by_question(cleaned_predictions),
+    }
+
+    out_path = output_dir / f"{run_name}_answers_by_model.json"
+    with out_path.open("w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    return out_path
 
 
 def run_demo(image_path: Optional[str] = None) -> None:
@@ -62,6 +118,8 @@ def run_demo(image_path: Optional[str] = None) -> None:
     metrics_path = pipeline.PRED_DIR / f"{run_name}_metrics.json"
     if metrics_path.exists():
         shutil.copy2(metrics_path, demo_dir / metrics_path.name)
+
+    _save_answers_by_model(cleaned_predictions, demo_dir, run_name)
 
     print(f"Demo artifacts saved to {demo_dir}")
 

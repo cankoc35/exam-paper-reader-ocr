@@ -52,10 +52,9 @@ def get_paddle_items(image_bgr):
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Default to printed models; switch to "handwritten" if needed.
-MODEL_MODE = "printed"
+# Use handwritten TrOCR checkpoints only.
+MODEL_MODE = "handwritten"
 MODEL_IDS = {
-    "printed": ("microsoft/trocr-base-printed", "microsoft/trocr-large-printed"),
     "handwritten": ("microsoft/trocr-base-handwritten", "microsoft/trocr-large-handwritten"),
 }
 

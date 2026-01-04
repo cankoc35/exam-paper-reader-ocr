@@ -13,7 +13,7 @@ This project segments a raw exam photo to isolate the paper, runs OCR models on 
 2) **Text region detection**: Use PaddleOCR detection to locate line-level text polygons on the cropped page.
 3) **Region normalization**: Warp each polygon to a rectangular crop so OCR models see upright text.
 4) **Multi-model OCR**: Run PaddleOCR, EasyOCR, and TrOCR (base/large) on each crop for complementary predictions.
-5) **Answer structuring**: Detect question numbers (1–20) per line, attach follow-up lines for multi-line answers.
+5) **Answer structuring**: Detect question numbers (1–20) per line, anchor bbox method per question.
 6) **Evaluation**: Compare model answers with ground-truth labels to compute per-model accuracy and CER.
 
 ## Project Structure
@@ -70,7 +70,7 @@ python demo.py
 
 Optional: pass a specific image path:
 ```
-python demo.py data/exam80.png
+python demo.py data/exam68.png
 ```
 
 The demo folder will include segmentation step images and the run metrics JSON for quick presentation.
