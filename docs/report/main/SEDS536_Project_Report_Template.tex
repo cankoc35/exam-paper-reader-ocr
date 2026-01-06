@@ -18,6 +18,8 @@
 \restylefloat{table}
 \usepackage{natbib}
 \usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{pgfgantt}
 
 
 
@@ -171,10 +173,10 @@ Table~\ref{tab:quantitative_results} summarizes the quantitative performance of 
 \hline
 \textbf{Model} & \textbf{Exact-Match Accuracy} & \textbf{Character-Level Accuracy} & \textbf{CER} \\
 \hline
-PaddleOCR     & 0.6656 & 0.7383 & 0.2617 \\
-TrOCR (Base)  & 0.3311 & 0.5106 & 0.4894 \\
-TrOCR (Large) & 0.4794 & 0.6596 & 0.3404 \\
-EasyOCR       & 0.1289 & 0.2613 & 0.7387 \\
+PaddleOCR     & 0.6750 & 0.7343 & 0.2657 \\
+TrOCR (Base)  & 0.3276 & 0.4780 & 0.5220 \\
+TrOCR (Large) & 0.4854 & 0.6503 & 0.3497 \\
+EasyOCR       & 0.1271 & 0.2576 & 0.7424 \\
 \hline
 \end{tabular}
 \end{table}
@@ -196,8 +198,28 @@ Future work may focus on domain-specific fine-tuning of recognition models, and 
 
 
 \section{Weekly Schedule/Project Plan}
-On the Gantt Chart that you prepared for project proposal report, show the steps that have been already done/undone with a color-coded representation.(green for done steps and red for undone ones.)
+Weekly schedule from Oct 7 (Week 1) to Jan 6 (Week 13). Green = done, red = not done.
 
+\begin{center}
+\begin{ganttchart}[
+    y unit chart=0.6cm,
+    vgrid,
+    hgrid,
+    bar height=0.4,
+    title label font=\bfseries,
+]{1}{13}
+\gantttitle{Weeks (Oct 7 - Jan 6)}{13} \\
+\gantttitlelist{1,...,13}{1} \\
+\ganttbar[bar/.append style={fill=green!60}]{Literature review}{1}{2} \\
+\ganttbar[bar/.append style={fill=green!60}]{Data collection}{2}{3} \\
+\ganttbar[bar/.append style={fill=green!60}]{Segmentation pipeline}{3}{5} \\
+\ganttbar[bar/.append style={fill=green!60}]{OCR integration}{5}{7} \\
+\ganttbar[bar/.append style={fill=green!60}]{Evaluation and metrics}{7}{9} \\
+\ganttbar[bar/.append style={fill=green!60}]{Report writing and revisions}{10}{13}
+\end{ganttchart}
+\end{center}
+
+\clearpage
 \bibliographystyle{chicago}
 \bibliography{references}
 

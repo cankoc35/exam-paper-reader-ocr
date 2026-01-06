@@ -3,9 +3,9 @@
   "image_name": "exam18.png",
   "models": {
     "paddle": {
-      "cer": 0.4961832061068702,
-      "accuracy": 0.3,
-      "correct": 6,
+      "cer": 0.16030534351145037,
+      "accuracy": 0.75,
+      "correct": 15,
       "total": 20
     },
     "trocr_base": {

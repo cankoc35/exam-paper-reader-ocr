@@ -15,9 +15,9 @@
       "total": 20
     },
     "trocr_large": {
-      "cer": 0.20610687022900764,
-      "accuracy": 0.45,
-      "correct": 9,
+      "cer": 0.24427480916030533,
+      "accuracy": 0.6,
+      "correct": 12,
       "total": 20
     },
     "easyocr": {

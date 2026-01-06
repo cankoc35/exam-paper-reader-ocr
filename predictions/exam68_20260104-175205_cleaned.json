@@ -1,0 +1,308 @@
+{
+  "run_name": "exam68_20260104-175205",
+  "image_name": "exam68.png",
+  "results": [
+    {
+      "question": "1",
+      "paddle_text": "1) 30-10=20",
+      "trocr_text": {
+        "base": "0 1",
+        "large": "1961 62"
+      },
+      "easyocr": [],
+      "followups": [
+        {
+          "paddle_text": "27×8=56",
+          "trocr_text": {
+            "base": "offground",
+            "large": "stand ."
+          },
+          "easyocr": []
+        }
+      ]
+    },
+    {
+      "question": "3",
+      "paddle_text": "3)96÷6=16",
+      "trocr_text": {
+        "base": "1999",
+        "large": "20thairs ."
+      },
+      "easyocr": [
+        "H"
+      ]
+    },
+    {
+      "question": "4",
+      "paddle_text": "4)-18+11=-7",
+      "trocr_text": {
+        "base": "section .",
+        "large": "section A #"
+      },
+      "easyocr": [
+        "Section"
+      ]
+    },
+    {
+      "question": "5",
+      "paddle_text": "5)2.4+3=5.44",
+      "trocr_text": {
+        "base": "spouse .",
+        "large": "1960-10-2 ."
+      },
+      "easyocr": [
+        "1) 3"
+      ]
+    },
+    {
+      "question": "6",
+      "paddle_text": "6) 92-47=45",
+      "trocr_text": {
+        "base": "2nd century",
+        "large": "#"
+      },
+      "easyocr": [
+        "2) 7 * `"
+      ]
+    },
+    {
+      "question": "7",
+      "paddle_text": "$7)$3{3=27=2",
+      "trocr_text": {
+        "base": "adjustment",
+        "large": "at-ist-"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "8",
+      "paddle_text": "8)150÷5=30",
+      "trocr_text": {
+        "base": "sizes to the",
+        "large": "5/2.4.5.4 ."
+      },
+      "easyocr": [
+        "5.4",
+        "J2+4="
+      ],
+      "followups": [
+        {
+          "paddle_text": "938-19=19",
+          "trocr_text": {
+            "base": "0/000",
+            "large": "6/92-47-42 ."
+          },
+          "easyocr": []
+        }
+      ]
+    },
+    {
+      "question": "10",
+      "paddle_text": "10)9×9=81",
+      "trocr_text": {
+        "base": "spiesonists",
+        "large": "sins #30"
+      },
+      "easyocr": [
+        "150 +5 = 30",
+        "7332"
+      ],
+      "followups": [
+        {
+          "paddle_text": "Section B — Single Word Answers",
+          "trocr_text": {
+            "base": "0 0000 000 000 000 000 000 000 000",
+            "large": "1961-"
+          },
+          "easyocr": []
+        }
+      ]
+    },
+    {
+      "question": "11",
+      "paddle_text": "11) Opposite of \"minimum\": _maximum",
+      "trocr_text": {
+        "base": "Section B.000",
+        "large": "Section B - SUB"
+      },
+      "easyocr": [
+        "Section B"
+      ]
+    },
+    {
+      "question": "12",
+      "paddle_text": "12) Word meaning \"not allowed\": forbidden",
+      "trocr_text": {
+        "base": "11 October 1944 forbidden",
+        "large": "11 ) Opposite or Forbidden"
+      },
+      "easyocr": [
+        "11) Opposite",
+        "Oecbdden"
+      ]
+    },
+    {
+      "question": "13",
+      "paddle_text": "13) Color formed by mixing blue and yellow: green",
+      "trocr_text": {
+        "base": "\" I mine formed by mixing blue and yellow : GOOD",
+        "large": "ral color formed by mixing blue and yellow : Green"
+      },
+      "easyocr": [
+        "mixing blue and yellow:",
+        "gceen"
+      ]
+    },
+    {
+      "question": "14",
+      "paddle_text": "14) Plural of \"analysis: anclyses",
+      "trocr_text": {
+        "base": "saj plural of \" analysis \" : __ Candy see ?",
+        "large": "14 ) Plural of \" analysis \" : Analyzes"
+      },
+      "easyocr": [
+        "14) Plural of \"analysis",
+        "Ancluse >"
+      ]
+    },
+    {
+      "question": "15",
+      "paddle_text": ") Animal with black and white stripes: ",
+      "trocr_text": {
+        "base": "15 ) Animal with black and white stripes : Zobo-",
+        "large": "15 ) Animal with black and white stripes : Zebeca"
+      },
+      "easyocr": [
+        "15) Animal with black and white stripes:",
+        "2a209"
+      ]
+    },
+    {
+      "question": "10",
+      "paddle_text": ") Past tense of \"write: Wro",
+      "trocr_text": {
+        "base": "10 ) Past tense of \" write ! \" W.ROTE",
+        "large": "16 ) Past tense of \" write \" : WHO #"
+      },
+      "easyocr": [
+        "16) Past tense of \"write",
+        "J9+e"
+      ],
+      "followups": [
+        {
+          "paddle_text": "Section C - Short Phrase Answers",
+          "trocr_text": {
+            "base": "write 2-s words exactly ) ...",
+            "large": "( Write 2-8 words exactly ) #"
+          },
+          "easyocr": [
+            "Lone"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "17",
+      "paddle_text": "(Write 2-3 words exactly)",
+      "trocr_text": {
+        "base": "179 Technology for reading text",
+        "large": "17 ) Technology for reading text"
+      },
+      "easyocr": [
+        "Technology",
+        "reading"
+      ]
+    },
+    {
+      "question": "7",
+      "paddle_text": "7) Technology for reading text from images:",
+      "trocr_text": {
+        "base": "optical character recog \"",
+        "large": "optical character recug ..."
+      },
+      "easyocr": [
+        "Oplica",
+        "coryctor",
+        "1 Ld"
+      ],
+      "followups": [
+        {
+          "paddle_text": "optical character recognition",
+          "trocr_text": {
+            "base": "told that combines data and statistics :",
+            "large": "told that combines data and statistics :"
+          },
+          "easyocr": [
+            "ield that combines data and statistics:"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "8",
+      "paddle_text": "8) Field that combines data and statistics:",
+      "trocr_text": {
+        "base": "data science .",
+        "large": "data science"
+      },
+      "easyocr": [
+        "dotu",
+        "Sciece"
+      ],
+      "followups": [
+        {
+          "paddle_text": "data science",
+          "trocr_text": {
+            "base": "pritable computer used for we",
+            "large": "strable computer used for we"
+          },
+          "easyocr": [
+            "ortable computer used for"
+          ]
+        },
+        {
+          "paddle_text": "Portable computer used for work:",
+          "trocr_text": {
+            "base": "management of the competition of the",
+            "large": "support computer"
+          },
+          "easyocr": [
+            "Gpte",
+            "comtn ="
+          ]
+        },
+        {
+          "paddle_text": "laptop computer",
+          "trocr_text": {
+            "base": "the general election",
+            "large": "was used to train tomorrow ."
+          },
+          "easyocr": [
+            "Jo"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "2",
+      "paddle_text": "2) Method used to train neural networks:",
+      "trocr_text": {
+        "base": "conceptoryement",
+        "large": "conceptions"
+      },
+      "easyocr": [
+        "ouecrUi J\""
+      ],
+      "followups": [
+        {
+          "paddle_text": "backpropagation",
+          "trocr_text": {
+            "base": "0",
+            "large": "0 0"
+          },
+          "easyocr": []
+        }
+      ]
+    }
+  ]
+}

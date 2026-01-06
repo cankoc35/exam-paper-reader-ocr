@@ -1,0 +1,338 @@
+{
+  "run_name": "exam33_20260104-175753",
+  "image_name": "exam33.png",
+  "results": [
+    {
+      "question": "1",
+      "paddle_text": "1)30-10=2",
+      "trocr_text": {
+        "base": "1930-10-200",
+        "large": "1 )30-10-200"
+      },
+      "easyocr": []
+    },
+    {
+      "question": "2",
+      "paddle_text": "2)7×8=56",
+      "trocr_text": {
+        "base": "2jTX8-gb.",
+        "large": "2 )7x8-g6 ."
+      },
+      "easyocr": [
+        "2) 7 x 8"
+      ]
+    },
+    {
+      "question": "16",
+      "paddle_text": "396÷6=16",
+      "trocr_text": {
+        "base": "supports -",
+        "large": "399#16 ."
+      },
+      "easyocr": []
+    },
+    {
+      "question": "4",
+      "paddle_text": "4)-18+11=7",
+      "trocr_text": {
+        "base": "ex--heartedity .",
+        "large": "4-18-17 ."
+      },
+      "easyocr": []
+    },
+    {
+      "question": "5",
+      "paddle_text": "5)2.4+3=4",
+      "trocr_text": {
+        "base": "syzats-egg in",
+        "large": "5/2.4.3-g. 4 ."
+      },
+      "easyocr": [
+        "J) 24+3"
+      ]
+    },
+    {
+      "question": "6",
+      "paddle_text": "6)92-47=45",
+      "trocr_text": {
+        "base": "0,012-",
+        "large": "6/92-17-ogs"
+      },
+      "easyocr": [
+        "6) 92"
+      ]
+    },
+    {
+      "question": "7",
+      "paddle_text": "7)33=27",
+      "trocr_text": {
+        "base": "7,33327",
+        "large": "7 ) 33- 27 ."
+      },
+      "easyocr": []
+    },
+    {
+      "question": "8",
+      "paddle_text": "8)150÷5=30",
+      "trocr_text": {
+        "base": "8,15002530",
+        "large": "8 ) 150#30 ."
+      },
+      "easyocr": [
+        "8) 150 + &",
+        "30"
+      ]
+    },
+    {
+      "question": "9",
+      "paddle_text": "938-19=19",
+      "trocr_text": {
+        "base": "9,388-19-19",
+        "large": "9,38-19-9 ."
+      },
+      "easyocr": [
+        "9) 38"
+      ]
+    },
+    {
+      "question": "10",
+      "paddle_text": "10)9×9=81",
+      "trocr_text": {
+        "base": "tojoyage",
+        "large": "10,969-81 ."
+      },
+      "easyocr": [
+        "10) 9 > 9 = 0"
+      ],
+      "followups": [
+        {
+          "paddle_text": "Section B - Single Word Answers",
+          "trocr_text": {
+            "base": "Section B. - Single Word Answers",
+            "large": "Section B - Single Word Answers"
+          },
+          "easyocr": [
+            "Section B",
+            "Single Word",
+            "Answers"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "11",
+      "paddle_text": "11) Opposite of \"minimum\": m",
+      "trocr_text": {
+        "base": "11 ) Opposite of \" minimum \" : JACK-ICALLED",
+        "large": "11 ) Opposite of \" minimum \" : DICKICALCRAWG."
+      },
+      "easyocr": [
+        "1) Opposite of"
+      ]
+    },
+    {
+      "question": "12",
+      "paddle_text": "1 Word meaning \"not allowed\":de",
+      "trocr_text": {
+        "base": "12 ) Word meaning \" not allowed ? \" fact-dale ,",
+        "large": "12 ) Word meaning \" not allowed : forbidden"
+      },
+      "easyocr": [
+        "Word meaning",
+        "not allowed\"",
+        "Loeiden"
+      ]
+    },
+    {
+      "question": "13",
+      "paddle_text": "Color formed by mixing blue and yellow:r",
+      "trocr_text": {
+        "base": "13 ) Color formed by mixing blue and yellow .",
+        "large": "13 ) Color formed by mixing blue and yellow : (000"
+      },
+      "easyocr": [
+        "formed by mixing blue and yellow:",
+        "0220",
+        "Color"
+      ]
+    },
+    {
+      "question": "14",
+      "paddle_text": "14) Plural of \"analysis\": anoljs",
+      "trocr_text": {
+        "base": "14 ) Plural of \" analysis \" : ... A. Analysis",
+        "large": "14 ) Plural of \" analysis \" : Analyzes"
+      },
+      "easyocr": [
+        "14) Plural of \"analysis\" -",
+        "daqLJs e"
+      ]
+    },
+    {
+      "question": "15",
+      "paddle_text": "15) Animal with black and white stripes: 2",
+      "trocr_text": {
+        "base": "15 ) Animal with black and white stripes :",
+        "large": "15 ) Animal with black and white stripes : 2cb00"
+      },
+      "easyocr": [
+        "15)",
+        "Animal wich black",
+        "and white stripes:",
+        "Zceca"
+      ]
+    },
+    {
+      "question": "16",
+      "paddle_text": "16) Past tense of \"write\": VCo",
+      "trocr_text": {
+        "base": "16 ) Past tense of write . \" W.C.C.C.",
+        "large": "16 ) Past tense of \" write : VLCO.C."
+      },
+      "easyocr": [
+        "16) Past",
+        "ICuC",
+        "TTNIt",
+        "Mla te"
+      ],
+      "followups": [
+        {
+          "paddle_text": "Section C - Short Phrase Answers",
+          "trocr_text": {
+            "base": "Section C. Short Phrase Answers",
+            "large": "Section C - Short Phrase Answers"
+          },
+          "easyocr": [
+            "Section C",
+            "Short Phrase",
+            "Answers"
+          ]
+        },
+        {
+          "paddle_text": "(Write 2-3 words exactly)",
+          "trocr_text": {
+            "base": "( Write 2-3 words exactly )",
+            "large": "( Write 2-3 words exactly )"
+          },
+          "easyocr": [
+            "Write",
+            "Woras",
+            "ctacut"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "17",
+      "paddle_text": "17) Technology for reading text from images:",
+      "trocr_text": {
+        "base": "17 ) Technology for reading text from images :",
+        "large": "17 ) Technology for reading text from images :"
+      },
+      "easyocr": [
+        "17)",
+        "Technology for reading",
+        "Tn",
+        "rom",
+        "Anie"
+      ],
+      "followups": [
+        {
+          "paddle_text": "optical characterrecognition",
+          "trocr_text": {
+            "base": "optical character recognition",
+            "large": "optical characterrecognition"
+          },
+          "easyocr": [
+            "opficel characherec",
+            "Lion",
+            "Gni"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "18",
+      "paddle_text": "18) Field that combines data and statistics:",
+      "trocr_text": {
+        "base": "18 ) Field that combines data and statistics :",
+        "large": "18 ) Field that combines data and statistics :"
+      },
+      "easyocr": [
+        "18)",
+        "Field",
+        "that combines",
+        "Olntn",
+        "Hmdl",
+        "Suustics"
+      ],
+      "followups": [
+        {
+          "paddle_text": "data sicience",
+          "trocr_text": {
+            "base": "data science",
+            "large": "data science ."
+          },
+          "easyocr": [
+            "ata",
+            "5i ci",
+            "2122"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "19",
+      "paddle_text": "19) Portable computer used for work:",
+      "trocr_text": {
+        "base": "19 ) Portable computer used for work :",
+        "large": "19) Portable computer used for work :"
+      },
+      "easyocr": [
+        "Portable compute",
+        "MSe",
+        "for work:"
+      ],
+      "followups": [
+        {
+          "paddle_text": "laptop computer",
+          "trocr_text": {
+            "base": "laptop computer",
+            "large": "laptop computer"
+          },
+          "easyocr": [
+            "lap-ep",
+            "2OMpufe"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "20",
+      "paddle_text": "20) Method used to train neural networks:",
+      "trocr_text": {
+        "base": "20 ) Method used to train neural networks :",
+        "large": "20 ) Method used to train neural networks :"
+      },
+      "easyocr": [
+        "20) Method used",
+        "to train ncural",
+        "ueorks-"
+      ],
+      "followups": [
+        {
+          "paddle_text": "back propagation.",
+          "trocr_text": {
+            "base": "back propagation .",
+            "large": "back propagation ."
+          },
+          "easyocr": [
+            "bockpro",
+            "Paqat",
+            "ion"
+          ]
+        }
+      ]
+    }
+  ]
+}

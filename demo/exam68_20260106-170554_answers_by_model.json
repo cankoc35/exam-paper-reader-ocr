@@ -1,0 +1,354 @@
+{
+  "run_name": "exam68_20260106-170554",
+  "image_name": "exam68.png",
+  "questions": {
+    "1": {
+      "paddle": [
+        "Color formed by mixing blue and yellow: green",
+        "green"
+      ],
+      "trocr_base": [
+        "Color formed by mixing blue and yellow : - GOOD",
+        "- GOOD"
+      ],
+      "trocr_large": [
+        "Color formed by mixing blue and yellow : Green",
+        "Green"
+      ],
+      "easyocr": [
+        "Color formed",
+        "by\" mixing blue and",
+        "vellar-",
+        "caeeaf"
+      ]
+    },
+    "2": {
+      "paddle": [
+        "27×8=56",
+        "56"
+      ],
+      "trocr_base": [
+        "000556"
+      ],
+      "trocr_large": [
+        "7x8-56 ."
+      ],
+      "easyocr": []
+    },
+    "3": {
+      "paddle": [
+        "96÷6=16",
+        "16"
+      ],
+      "trocr_base": [
+        "sjozzable"
+      ],
+      "trocr_large": [
+        "s195-6-16 ."
+      ],
+      "easyocr": []
+    },
+    "4": {
+      "paddle": [
+        "-18+11=-7",
+        "-7"
+      ],
+      "trocr_base": [
+        "dis---"
+      ],
+      "trocr_large": [
+        "a-s#"
+      ],
+      "easyocr": [
+        "Seu"
+      ]
+    },
+    "5": {
+      "paddle": [
+        "2.4+3=5.44",
+        "5.44"
+      ],
+      "trocr_base": [
+        "slightly"
+      ],
+      "trocr_large": [
+        "5/24.3-5.4 .4 .4 ."
+      ],
+      "easyocr": [
+        "524+42",
+        "5."
+      ]
+    },
+    "6": {
+      "paddle": [
+        "92-47=45",
+        "45"
+      ],
+      "trocr_base": [
+        "6j92-47-d ,5."
+      ],
+      "trocr_large": [
+        "6/92-47-415"
+      ],
+      "easyocr": [
+        "45"
+      ]
+    },
+    "7": {
+      "paddle": [
+        "$7)3^=27=27",
+        "27"
+      ],
+      "trocr_base": [
+        "rises-27"
+      ],
+      "trocr_large": [
+        "riiss-27 ."
+      ],
+      "easyocr": [
+        "27"
+      ]
+    },
+    "8": {
+      "paddle": [
+        "150÷5=30",
+        "30"
+      ],
+      "trocr_base": [
+        "squimmers to"
+      ],
+      "trocr_large": [
+        "8/150#30 ."
+      ],
+      "easyocr": [
+        "150 ; 5 =",
+        "30"
+      ]
+    },
+    "9": {
+      "paddle": [
+        "38-19=19",
+        "19"
+      ],
+      "trocr_base": [
+        "9,388-19-log"
+      ],
+      "trocr_large": [
+        "9,38-19-195"
+      ],
+      "easyocr": [
+        "93"
+      ]
+    },
+    "10": {
+      "paddle": [
+        "9×9=81",
+        "81",
+        "Section B — Single Word Answers"
+      ],
+      "trocr_base": [
+        "soyozo-girl .",
+        "Section B. Simple Word Answers"
+      ],
+      "trocr_large": [
+        "sojaxo - 81 .",
+        "Section B - Single Word Answers"
+      ],
+      "easyocr": [
+        "9 > 9",
+        "Section B",
+        "Single Word",
+        "Answers"
+      ]
+    },
+    "11": {
+      "paddle": [
+        "Opposite of \"minimum\": _maximum",
+        "_maximum"
+      ],
+      "trocr_base": [
+        "Opposite of \" minimum \" : Maximum",
+        "Maximum"
+      ],
+      "trocr_large": [
+        "Opposite of \"minimum : Maximum",
+        "Maximum"
+      ],
+      "easyocr": [
+        "Opposite",
+        "nlexmum"
+      ]
+    },
+    "12": {
+      "paddle": [
+        "Wordmeaning \"not llweoide"
+      ],
+      "trocr_base": [
+        "word meaning \" not allowed \" # forbidden"
+      ],
+      "trocr_large": [
+        "Word meaning \" not allowed : forbidden",
+        "forbidden"
+      ],
+      "easyocr": [
+        "Word meaning",
+        "allowed\" ;",
+        "feckis"
+      ]
+    },
+    "13": {
+      "paddle": [],
+      "trocr_base": [],
+      "trocr_large": [],
+      "easyocr": []
+    },
+    "14": {
+      "paddle": [
+        "Plural of \"analysis: anclyse",
+        "anclyse"
+      ],
+      "trocr_base": [
+        "Plural of 'analysis ' : __ analyze a",
+        "__ analyze a"
+      ],
+      "trocr_large": [
+        "Phural of \" analysis \" : Analyses",
+        "Analyses"
+      ],
+      "easyocr": [
+        "Plural of \"analysis\"",
+        "Ans",
+        "32"
+      ]
+    },
+    "15": {
+      "paddle": [
+        "Animal with black and white stripes:"
+      ],
+      "trocr_base": [
+        "Animal with black and white stripes : ...",
+        "..."
+      ],
+      "trocr_large": [
+        "Animal with black and white stripes : 2ebec",
+        "2ebec"
+      ],
+      "easyocr": [
+        "Animal with black and white stripes:",
+        "22"
+      ]
+    },
+    "16": {
+      "paddle": [
+        "Past tense of \"write:Wro",
+        "Wro",
+        "Section C — Short Phrase Answers",
+        "(Write 2-3 words exactly)"
+      ],
+      "trocr_base": [
+        "Past tense of \" write . \" . \" Who Are",
+        "Section C. Short Phrase Answers",
+        "( Write 2- ) words exactly )"
+      ],
+      "trocr_large": [
+        "Past tense of \" write : wrote",
+        "wrote",
+        "Section C - Short Phrase Answers",
+        "( Write 2-3 words exactly )"
+      ],
+      "easyocr": [
+        "Pas",
+        "tense",
+        "Jco",
+        "~utite",
+        "Section",
+        "Short Phrase Answers",
+        "(Wnte 2-3",
+        "eractly",
+        "Bond"
+      ]
+    },
+    "17": {
+      "paddle": [
+        "Technology for reading text from images:",
+        "optical character recognition"
+      ],
+      "trocr_base": [
+        "Technology for reading text from images :",
+        "optical character recognition"
+      ],
+      "trocr_large": [
+        "Technology for reading text from images :",
+        "optical character recognition"
+      ],
+      "easyocr": [
+        "Technology lor feading text from images",
+        "iinages",
+        "oplical",
+        "cloracter",
+        "recoaniHion"
+      ]
+    },
+    "18": {
+      "paddle": [
+        "Field that combines data and statistics:",
+        "data science"
+      ],
+      "trocr_base": [
+        "Field that combines data and statistics :",
+        "data science ."
+      ],
+      "trocr_large": [
+        "Field that combines data and statistics :",
+        "data science ."
+      ],
+      "easyocr": [
+        "Ficld tnat",
+        "SLALiSlics",
+        "dotu",
+        "sciene"
+      ]
+    },
+    "19": {
+      "paddle": [
+        "Portable computer used for work:",
+        "laptop computer"
+      ],
+      "trocr_base": [
+        "Portable computer used for work :",
+        "laptop computer"
+      ],
+      "trocr_large": [
+        "Portable computer used for work :",
+        "luptop computer ."
+      ],
+      "easyocr": [
+        "Portable computer used",
+        "wonr",
+        "lcetq",
+        "compdor"
+      ]
+    },
+    "20": {
+      "paddle": [
+        "Method used to train neural networks:",
+        "backpropagation"
+      ],
+      "trocr_base": [
+        "Method used to train neural networks",
+        "backpropagation"
+      ],
+      "trocr_large": [
+        "Method used to train neural networks :",
+        "backpropagation"
+      ],
+      "easyocr": [
+        "Method used",
+        "nemtu",
+        "nicnuonr",
+        "back",
+        "propog Hot"
+      ]
+    }
+  }
+}
