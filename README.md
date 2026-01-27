@@ -8,6 +8,9 @@ This project segments a raw exam photo to isolate the paper, runs OCR models on 
 3) Crop each region and run PaddleOCR + EasyOCR + TrOCR (base/large) for recognition.
 4) Save raw + cleaned predictions and compute CER/accuracy per model.
 
+## Pipeline Diagram
+![Pipeline diagram](docs/pipeline.png)
+
 ## Methodology
 1) **Page segmentation**: Normalize illumination, build mask/edge cues, and extract the page contour to crop a clean paper view.
 2) **Text region detection**: Use PaddleOCR detection to locate line-level text polygons on the cropped page.
